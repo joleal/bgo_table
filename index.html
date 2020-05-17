@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Liga AoJ</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- START PLUGINS -->
+      <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+      <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
+      <script type="text/javascript" src="js/plugins/angular/angular.js"></script>        
+    <!-- END PLUGINS -->      
+  </head>
+
+  <body ng-app="bgoApp"  ng-controller="MainCtrl as ctrl" ng-cloak>
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Liga AoJ</a>
+    </nav>
+
+			
+    <!-- PAGE CONTENT -->
+    <div class="page-content">
+    	<div class="container-fluid">
+			  <div class="row">
+			    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+			      <div class="sidebar-sticky">
+			        <ul class="nav flex-column">
+			          
+			          <li class="nav-item" style="font-size: 10px">
+			            Actualizado em {{ ::ctrl.lastUpdate }}
+			          </li>
+			          <li class="nav-item"> 
+			            <a ng-class="(1 === 1)?'nav-link active':'nav-link'" ui-sref="home">
+			            Épocas  
+			            </a>
+			          </li>
+			          <li class="nav-item"> 
+			            <a ng-class="(1 === 1)?'nav-link active':'nav-link'" ui-sref="table">
+			            Tabela Geral  
+			            </a>
+			          </li>
+			        </ul>
+			      </div>
+			    </nav>
+	        <div ui-view class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+	        </div>
+        </div>
+			</div>
+    </div>  
+    <!-- END PAGE CONTENT -->
+
+    <!-- Angular files -->
+    <script type="text/javascript" src="js/plugins/uirouter.min.js"></script> 
+    <script type="text/javascript" src="js/app.js"></script> 
+    <!-- Services -->
+    <script type="text/javascript" src="js/angular_service/DataService.js"></script>
+    <!-- Controllers -->
+    <script type="text/javascript" src="js/angular_controller/MainController.js"></script>
+    <script type="text/javascript" src="js/angular_controller/PlayerController.js"></script>
+    <script type="text/javascript" src="js/angular_controller/AltController.js"></script>
+    <script type="text/javascript" src="js/angular_controller/TableController.js"></script>
+    
+    <!-- Directives -->
+
+    <!-- Others -->
+  </body>
+</html>

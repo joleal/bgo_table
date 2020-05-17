@@ -1,0 +1,50 @@
+<main role="main">
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+    <h1 class="h2">Tabela Geral</h1>
+  </div>
+  <label>Jogador 1</label>
+  <select ng-model="ctrl.player1" ng-change="ctrl.update()">
+  	<option value=""></option>
+  	<option ng-repeat="p in ctrl.playerList track by $index">{{p.player}}</option>
+  </select>
+  <label>Jogador 2</label>
+  <select ng-model="ctrl.player2" ng-change="ctrl.update()">
+  	<option value=""></option>
+  	<option ng-repeat="p in ctrl.playerList track by $index">{{p.player}}</option>
+  </select>
+  <label>Jogador 3</label>
+  <select ng-model="ctrl.player3" ng-change="ctrl.update()">
+  	<option value=""></option>
+  	<option ng-repeat="p in ctrl.playerList track by $index">{{p.player}}</option>
+  </select>
+  <div class="table-responsive">
+    <table class="table table-striped table-sm">
+      <thead>
+        <tr>
+          <th>Nome Jogador</th>
+          <th>Jogos</th>
+          <th>Vitórias</th>
+          <th>% de Vitórias</th>
+          <th>Total de DP</th>
+          <th>DP por jogo</th>
+          <th>Épocas</th>
+          <th>Campeão</th>
+          <th>Épocas na 1D</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="player in ctrl.data">
+          <td>{{ player.player }}</td>
+          <td>{{ player.jogos }}</td>
+          <td>{{ player.vitorias }}</td>
+          <td>{{ (player.vitorias/ player.jogos * 100).toFixed(2)}}%</td>
+          <td>{{ player.DPs }}</td>
+          <td>{{ (player.DPs/ player.jogos).toFixed(2)}}</td>
+          <td>{{ player.totEp }}</td>
+          <td>{{ player.champ }}</td>
+          <td>{{ player.epocasD1 }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</main>

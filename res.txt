@@ -1,0 +1,452 @@
+id	name	round	winner	winnerScore	second	secondScore	third	thirdScore	fourth	fourthScore	parsed	actionsParsed	players	player1	player2	player3	player4	winnerPosition	edition
+7454380	Vitor Espanhol XXIX	19	Vítor Pires	190	Leal Joao	141		0		0	1	1	2	Leal Joao	Vítor Pires	Journal	Chat	2	new
+7454379	Vitor Espanhol XXVIII	19	Leal Joao	196	Vítor Pires	148		0		0	1	1	2	Vítor Pires	Leal Joao	Journal	Chat	2	new
+7453952	Vitor Espanhol XXVI	19	Leal Joao	297	Vítor Pires	183		0		0	1	1	2	Vítor Pires	Leal Joao	Journal	Chat	2	new
+7453951	Vitor Espanhol XXVII	18	Vítor Pires	124	Leal Joao	65		0		0	1	1	2	Vítor Pires	Leal Joao	Journal	Chat	1	new
+7453778	Vitor Espanhol XXV	20	Vítor Pires	215	Leal Joao	187		0		0	1	1	2	Leal Joao	Vítor Pires	Journal	Chat	2	new
+7453441	Vitor Espanhol XXIV	20	Vítor Pires	171	Leal Joao	168		0		0	1	1	2	Leal Joao	Vítor Pires	Journal	Chat	2	new
+7453132	Vitor Espanhol XXIII	19	Vítor Pires	98	Leal Joao	53		0		0	1	1	2	Leal Joao	Vítor Pires	Journal	Chat	2	new
+7452937	Vitor Espanhol XXII	19	Leal Joao	135	Vítor Pires	122		0		0	1	1	2	Leal Joao	Vítor Pires	Journal	Chat	1	new
+7452890	Vitor Espanhol XXI	20	Vítor Pires	194	Leal Joao	117		0		0	1	1	2	Vítor Pires	Leal Joao	Journal	Chat	1	new
+7452563	Vitor Espanhol XX	19	Vítor Pires	162	Leal Joao	119		0		0	1	1	2	Vítor Pires	Leal Joao	Journal	Chat	1	new
+7452347	Vitor Espanhol XIX	19	Leal Joao	188	Vítor Pires	158		0		0	1	1	2	Vítor Pires	Leal Joao	Journal	Chat	2	new
+7452133	Vitor Espanhol XXVII	19	Leal Joao	182	Vítor Pires	129		0		0	1	1	2	Vítor Pires	Leal Joao	Journal	Chat	2	new
+7316226	Vitor Espanhol XXVI	20	Vítor Pires	147	Leal Joao	101		0		0	1	1	2	Leal Joao	Vítor Pires	Journal	Chat	2	new
+7452808	Liga AoJ E04 D01 J04	18	Pedro Sequeira	244	Ricardo Biscaia	221	nogud nogud	204		0	1	1	3	Ricardo Biscaia	nogud nogud	Pedro Sequeira	Journal	3	new
+7452807	Liga AoJ E04 D01 J03	19	nogud nogud	223	Ricardo Biscaia	182	Sergio Ribeiro 	177		0	1	1	3	nogud nogud	Ricardo Biscaia	Sergio Ribeiro 	Journal	1	new
+7452806	Liga AoJ E04 D01 J02	18	Pedro Sequeira	165	Ricardo Biscaia	120	Sergio Ribeiro 	91		0	1	1	3	Pedro Sequeira	Sergio Ribeiro 	Ricardo Biscaia	Journal	1	new
+7452805	Liga AoJ E04 D01 J01	17	nogud nogud	159	Sergio Ribeiro 	149	Pedro Sequeira	148		0	1	1	3	nogud nogud	Pedro Sequeira	Sergio Ribeiro 	Journal	1	new
+7452804	Liga AoJ E04 D03B J04	18	Leal Joao	223	Luis Baixinho	124	Carlos Santos	98		0	1	1	3	Luis Baixinho	Carlos Santos	Leal Joao	Journal	3	new
+7452803	Liga AoJ E04 D03B J03	19	David Rodrigues 	160	Carlos Santos	136	Luis Baixinho	123		0	1	1	3	Carlos Santos	Luis Baixinho	David Rodrigues 	Journal	3	new
+7452802	Liga AoJ E04 D03B J02	19	Leal Joao	186	David Rodrigues 	110	Luis Baixinho	90		0	1	1	3	Leal Joao	David Rodrigues 	Luis Baixinho	Journal	1	new
+7452801	Liga AoJ E04 D03B J01	18	David Rodrigues 	172	Leal Joao	113	Carlos Santos	101		0	1	1	3	David Rodrigues 	Leal Joao	Carlos Santos	Journal	1	new
+7452799	Liga AoJ E04 D02 J04	18	Jorge PPD	167	Diogo  Durão	148	Joao Pontes	145		0	1	1	3	Jorge PPD	Diogo  Durão	Joao Pontes	Journal	1	new
+7452798	Liga AoJ E04 D02 J03	18	Mário Sousa	238	Diogo  Durão	211	Jorge PPD	148		0	1	1	3	Diogo  Durão	Jorge PPD	Mário Sousa	Journal	3	new
+7452797	Liga AoJ E04 D02 J02	18	Jorge PPD	166	Joao Pontes	137	Mário Sousa	120		0	1	1	3	Joao Pontes	Mário Sousa	Jorge PPD	Journal	3	new
+7452796	Liga AoJ E04 D02 J01	19	Mário Sousa	236	Joao Pontes	226	Diogo  Durão	170		0	1	1	3	Mário Sousa	Joao Pontes	Diogo  Durão	Journal	1	new
+7452795	Liga AoJ E04 D03A J04	19	Vítor Baixinho	206	Marcos Pires	194	Cristovão Neto	144		0	1	1	3	Vítor Baixinho	Cristovão Neto	Marcos Pires	Journal	1	new
+7452794	Liga AoJ E04 D03A J03	19	Vítor Pires	224	Vítor Baixinho	212	Cristovão Neto	81		0	1	1	3	Cristovão Neto	Vítor Baixinho	Vítor Pires	Journal	3	new
+7452793	Liga AoJ E04 D03A J02	17	Vítor Baixinho	164	Vítor Pires	130	Marcos Pires	118		0	1	1	3	Marcos Pires	Vítor Pires	Vítor Baixinho	Journal	3	new
+7452792	Liga AoJ E04 D03A J01	19	Vítor Pires	162	Cristovão Neto	71	Marcos Pires	23		0	1	1	3	Vítor Pires	Marcos Pires	Cristovão Neto	Journal	1	new
+7450493	Liga AoJ E03 D03 J04	19	Mário Sousa	224	Carlos Santos	169	Cristovão Neto	137		0	1	1	3	Carlos Santos	Cristovão Neto	Mário Sousa	Journal	3	new
+7450492	Liga AoJ E03 D03 J03	19	Marcos Pires	251	Carlos Santos	69	Cristovão Neto	68		0	1	1	3	Cristovão Neto	Carlos Santos	Marcos Pires	Journal	3	new
+7450491	Liga AoJ E03 D03 J02	18	Mário Sousa	165	Marcos Pires	146	Carlos Santos	93		0	1	1	3	Mário Sousa	Marcos Pires	Carlos Santos	Journal	1	new
+7450490	Liga AoJ E03 D03 J01	18	Marcos Pires	129	Mário Sousa	120	Cristovão Neto	115		0	1	1	3	Marcos Pires	Mário Sousa	Cristovão Neto	Journal	1	new
+7450489	Liga AoJ E03 D02 J04	18	Diogo  Durão	159	nogud nogud	157	Jorge PPD	74		0	1	1	3	nogud nogud	Jorge PPD	Diogo  Durão	Journal	3	new
+7450488	Liga AoJ E03 D02 J03	18	nogud nogud	234	Jorge PPD	165	Ariana Pintor	131		0	1	1	3	Jorge PPD	nogud nogud	Ariana Pintor	Journal	2	new
+7450487	Liga AoJ E03 D02 J02	18	nogud nogud	246	Ariana Pintor	175	Diogo  Durão	168		0	1	1	3	Diogo  Durão	Ariana Pintor	nogud nogud	Journal	3	new
+7450486	Liga AoJ E03 D02 J01	19	Jorge PPD	228	Ariana Pintor	197	Diogo  Durão	146		0	1	1	3	Ariana Pintor	Diogo  Durão	Jorge PPD	Journal	3	new
+7450485	Liga AoJ E03 D01 J04	17	Pedro Sequeira	201	Sergio Ribeiro 	174	Joao Pontes	161		0	1	1	3	Pedro Sequeira	Sergio Ribeiro 	Joao Pontes	Journal	1	new
+7450484	Liga AoJ E03 D01 J03	19	Pedro Sequeira	276	Sergio Ribeiro 	274	Ricardo Biscaia	231		0	1	1	3	Sergio Ribeiro 	Pedro Sequeira	Ricardo Biscaia	Journal	2	new
+7450483	Liga AoJ E03 D01 J02	19	Ricardo Biscaia	239	Joao Pontes	191	Pedro Sequeira	163		0	1	1	3	Joao Pontes	Ricardo Biscaia	Pedro Sequeira	Journal	2	new
+7450482	Liga AoJ E03 D01 J01	18	Sergio Ribeiro 	188	Ricardo Biscaia	186	Joao Pontes	180		0	1	1	3	Ricardo Biscaia	Joao Pontes	Sergio Ribeiro 	Journal	3	new
+7447898	Liga AoJ E02 D02B J03	18	Sergio Ribeiro 	177	Diogo  Durão	137	Cristovão Neto	76		0	1	1	3	Diogo  Durão	Cristovão Neto	Sergio Ribeiro 	Journal	3	new
+7447897	Liga AoJ E02 D02B J02	18	Sergio Ribeiro 	184	Diogo  Durão	126	Cristovão Neto	76		0	1	1	3	Cristovão Neto	Diogo  Durão	Sergio Ribeiro 	Journal	3	new
+7447896	Liga AoJ E02 D02B J01	19	Diogo  Durão	243	Sergio Ribeiro 	144	Cristovão Neto	118		0	1	1	3	Cristovão Neto	Diogo  Durão	Sergio Ribeiro 	Journal	2	new
+7447895	Liga AoJ E02 D02A J03	19	Carlos Santos	193	Ariana Pintor	170	Joao Pontes	137		0	1	1	3	Joao Pontes	Ariana Pintor	Carlos Santos	Journal	3	new
+7447894	Liga AoJ E02 D02A J02	19	Ariana Pintor	242	Joao Pontes	222	Carlos Santos	129		0	1	1	3	Joao Pontes	Carlos Santos	Ariana Pintor	Journal	3	new
+7447893	Liga AoJ E02 D02A J01	18	Joao Pontes	190	Carlos Santos	135	Ariana Pintor	132		0	1	1	3	Ariana Pintor	Joao Pontes	Carlos Santos	Journal	2	new
+7447892	Liga AoJ \tE02 D01 J02	18	nogud nogud	181	Jorge PPD	154	Pedro Sequeira	153		0	1	1	3	nogud nogud	Pedro Sequeira	Jorge PPD	Journal	1	new
+7447891	Liga AoJ E02 D01 J01	18	Ricardo Biscaia	218	Jorge PPD	137	nogud nogud	96		0	1	1	3	Jorge PPD	Ricardo Biscaia	nogud nogud	Journal	2	new
+7447890	Liga AoJ E02 D01 J04	18	Ricardo Biscaia	214	Pedro Sequeira	214	nogud nogud	160		0	1	1	3	Pedro Sequeira	nogud nogud	Ricardo Biscaia	Journal	3	new
+7447889	Liga AoJ E02 D01 J03	18	Ricardo Biscaia	180	Jorge PPD	151	Pedro Sequeira	138		0	1	1	3	Ricardo Biscaia	Jorge PPD	Pedro Sequeira	Journal	1	new
+7445206	Liga AoJ E01 D01 J03	18	Jorge PPD	204	Carlos Santos	85	Cristovão Neto	45		0	1	1	3	Cristovão Neto	Carlos Santos	Jorge PPD	Journal	3	new
+7445083	Liga AoJ E01 D01 J02	19	Jorge PPD	237	Ricardo Biscaia	195	Cristovão Neto	152		0	1	1	3	Jorge PPD	Ricardo Biscaia	Cristovão Neto	Journal	1	new
+7445082	Liga AoJ E01 D01 J01	19	Ricardo Biscaia	186	Carlos Santos	53	Cristovão Neto	40		0	1	1	3	Carlos Santos	Cristovão Neto	Ricardo Biscaia	Journal	3	new
+7445080	Liga AoJ E01 D01 J04	18	Jorge PPD	151	Ricardo Biscaia	128	Carlos Santos	85		0	1	1	3	Ricardo Biscaia	Jorge PPD	Carlos Santos	Journal	2	new
+7445052	Liga AoJ E01 D02 J03	18	nogud nogud	279	Sergio Ribeiro 	225	Ariana Pintor	213		0	1	1	3	nogud nogud	Sergio Ribeiro 	Ariana Pintor	Journal	1	new
+7445037	Liga AoJ E01 D02 J04	17	nogud nogud	141	Pedro Sequeira	137	Sergio Ribeiro 	102		0	1	1	3	Sergio Ribeiro 	Pedro Sequeira	nogud nogud	Journal	3	new
+7445036	Liga AoJ E01 D02 J02	18	Pedro Sequeira	200	Ariana Pintor	148	Sergio Ribeiro 	116		0	1	1	3	Ariana Pintor	Sergio Ribeiro 	Pedro Sequeira	Journal	3	new
+7445035	Liga AoJ E01 D02 J01	18	Ariana Pintor	174	Pedro Sequeira	166	nogud nogud	166		0	1	1	3	nogud nogud	Ariana Pintor	Pedro Sequeira	Journal	2	new
+7383829	Nova Série (5)	17	Vítor Pires	153	Sergio Ribeiro 	147	Duarte Barbosa	113		0	1	1	3	Sergio Ribeiro 	Vítor Pires	Duarte Barbosa	Journal	2	new
+7382563	Nova Série (4)	18	Vítor Pires	301	Sergio Ribeiro 	299	Duarte Barbosa	279		0	1	1	3	Sergio Ribeiro 	Vítor Pires	Duarte Barbosa	Journal	2	new
+7381060	Nova Série (3)	18	Sergio Ribeiro 	168	Duarte Barbosa	160	Vítor Pires	158		0	1	1	3	Sergio Ribeiro 	Vítor Pires	Duarte Barbosa	Journal	1	new
+7379939	Nova Série (2)	17	Sergio Ribeiro 	164	Vítor Pires	154	Duarte Barbosa	102		0	1	1	3	Sergio Ribeiro 	Vítor Pires	Duarte Barbosa	Journal	1	new
+7379266	D C's Game (3)	20	Dinah Costa	191	Vítor Pires	183		0		0	1	1	2	Dinah Costa	Vítor Pires	Journal	Chat	1	new
+7379265	D C's Game (3)	20	Dinah Costa	174	Vítor Pires	157		0		0	1	1	2	Dinah Costa	Vítor Pires	Journal	Chat	1	new
+7379200	Nova Série	18	Vítor Pires	196	Sergio Ribeiro 	172	Duarte Barbosa	136		0	1	1	3	Duarte Barbosa	Sergio Ribeiro 	Vítor Pires	Journal	3	new
+7378206	D C's Game (2)	19	Vítor Pires	154	Dinah Costa	141		0		0	1	1	2	Vítor Pires	Dinah Costa	Journal	Chat	1	new
+7378191	D C's Game (2)	18	Dinah Costa	124	Vítor Pires	0		0		0	1	1	2	Dinah Costa	NULL	Journal	Chat	1	new
+7377659	D C's Game	19	Dinah Costa	102	Vítor Pires	101		0		0	1	1	2	Vítor Pires	Dinah Costa	Journal	Chat	2	new
+7377657	D C's Game	18	Vítor Pires	77	Dinah Costa	0		0		0	1	1	2	Vítor Pires	NULL	Journal	Chat	1	new
+7377508	Vítor Pires's Game	9	Vítor Pires	6	Dinah Costa	0		0		0	1	1	2	Vítor Pires	NULL	Journal	Chat	1	new
+7375062	Vítor Pires's Game (7)	19	Vítor Pires	214	Ricardo Biscaia	158		0		0	1	1	2	Vítor Pires	Ricardo Biscaia	Journal	Chat	1	new
+7374286	Vítor Pires's Game (6)	20	Ricardo Biscaia	195	Vítor Pires	153		0		0	1	1	2	Ricardo Biscaia	Vítor Pires	Journal	Chat	1	new
+7373607	Vítor Pires's Game (5)	20	Ricardo Biscaia	141	Vítor Pires	124		0		0	1	1	2	Vítor Pires	Ricardo Biscaia	Journal	Chat	2	new
+7372920	Vítor Pires's Game (4)	19	Ricardo Biscaia	108	Vítor Pires	87		0		0	1	1	2	Vítor Pires	Ricardo Biscaia	Journal	Chat	2	new
+7371886	Vítor Pires's Game (3)	20	Ricardo Biscaia	122	Vítor Pires	111		0		0	1	1	2	Ricardo Biscaia	Vítor Pires	Journal	Chat	1	new
+7371308	Vítor Pires's Game (2)	18	Ricardo Biscaia	131	Vítor Pires	96		0		0	1	1	2	Ricardo Biscaia	Vítor Pires	Journal	Chat	1	new
+7370146	Vítor Pires's Game	20	Ricardo Biscaia	206	Vítor Pires	188		0		0	1	1	2	Ricardo Biscaia	Vítor Pires	Journal	Chat	1	new
+7454529	Liga AoJ E05 D02A J02	18	Vítor Baixinho	233	Diogo  Durão	196	Sergio Ribeiro 	137		0	1	1	3	Diogo  Durão	Vítor Baixinho	Sergio Ribeiro 	Journal	2	new
+7306714	Goncalo - Espanhol 35	13	Leal Joao	13	GonÃ§alo Moura	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7305589	Vitor Espanhol XXV	20	Vítor Pires	194	Leal Joao	189		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7305450	V.E.G. VII	13	Leal Joao	44	GonÃ§alo Moura	0	Vítor Pires	0		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7304644	Vitor Espanhol XXIV	20	Vítor Pires	148	Leal Joao	134		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7304642	Goncalo - Espanhol XXXIV	21	Leal Joao	240	GonÃ§alo Moura	192		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7301199	V.E.G. VI	18	Leal Joao	163	GonÃ§alo Moura	159	Vítor Pires	158		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7298561	Goncalo - Espanhol XXXIII	20	GonÃ§alo Moura	161	Leal Joao	124		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7292951	Vitor Espanhol XXIII	21	Vítor Pires	229	Leal Joao	194		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7289359	Vitor Espanhol XXII	20	Vítor Pires	170	Leal Joao	168		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7288561	V.E.G. V	18	Vítor Pires	178	GonÃ§alo Moura	150	Leal Joao	118		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7288560	Goncalo - Espanhol XXXII	20	GonÃ§alo Moura	121	Leal Joao	75		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7285008	Vitor Espanhol XXI	20	Leal Joao	168	Vítor Pires	130		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7284495	Goncalo - Espanhol XXXI	20	GonÃ§alo Moura	149	Leal Joao	142		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7282893	Vitor Espanhol XX	20	Vítor Pires	120	Leal Joao	94		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7282044	V.E.G. IV	19	GonÃ§alo Moura	147	Leal Joao	129	Vítor Pires	123		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7281530	Vitor Espanhol XIX	20	Leal Joao	212	Vítor Pires	137		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7281528	Vitor Espanhol XVIII	21	Vítor Pires	198	Leal Joao	194		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7281493	Goncalo - Espanhol XXX	20	Leal Joao	137	GonÃ§alo Moura	83		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7280443	Vitor Espanhol XVII 	19	Vítor Pires	130	Leal Joao	122		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7278940	Vitor Espanhol XVI	20	Vítor Pires	99	Leal Joao	96		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7278546	Goncalo - Espanhol XXIX	21	GonÃ§alo Moura	183	Leal Joao	118		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7278106	V.E.G. III	18	Leal Joao	145	Vítor Pires	128	GonÃ§alo Moura	52		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7277276	Vitor Espanhol XV	21	Vítor Pires	135	Leal Joao	100		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7275565	Vitor Espanhol XIV	20	Leal Joao	127	Vítor Pires	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7275484	Goncalo - Espanhol XXVIII	20	Leal Joao	80	GonÃ§alo Moura	42		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7271131	Leal Joao's Game	3	Leal Joao	0	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7270949	Vitor Espanhol XIII	20	Vítor Pires	127	Leal Joao	115		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7268600	V.E.G. II	18	Leal Joao	60	Vítor Pires	46	GonÃ§alo Moura	36		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7268465	Vitor Espanhol XII	20	Leal Joao	132	Vítor Pires	108		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7268033	Goncalo - Espanhol XXVII	21	Leal Joao	147	GonÃ§alo Moura	116		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7266212	Goncalo - Espanhol XXVI	21	Leal Joao	161	GonÃ§alo Moura	155		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7264983	Vitor Espanhol XI	20	Leal Joao	104	Vítor Pires	94		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7263744	Goncalo - Espanhol XXV	21	Leal Joao	127	GonÃ§alo Moura	24		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7262272	Goncalo - Espanhol XXIV	20	Leal Joao	101	GonÃ§alo Moura	90		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7261832	Vitor Espanhol X	20	Vítor Pires	130	Leal Joao	102		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7260447	V.E.G. I	19	GonÃ§alo Moura	143	Vítor Pires	129	Leal Joao	119		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7260445	Goncalo - Espanhol XXIII	21	GonÃ§alo Moura	137	Leal Joao	109		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7259326	Vitor Espanhol IX	16	Leal Joao	81	Vítor Pires	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7259045	Goncalo - Espanhol XXII	20	Leal Joao	150	GonÃ§alo Moura	132		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7256792	Vitor Espanhol VIII	20	Vítor Pires	146	Leal Joao	135		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7256348	Goncalo - Espanhol XXI	21	Leal Joao	186	GonÃ§alo Moura	169		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7256118	Vitor Espanhol G (1)	20	Vítor Pires	197	Leal Joao	122		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7254912	Vitor Espanhol VII	19	Vítor Pires	114	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7254780	Goncalo - Espanhol XX	20	Leal Joao	212	GonÃ§alo Moura	156		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7253453	Goncalo - Espanhol XIX	19	Leal Joao	131	GonÃ§alo Moura	93		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7252158	Goncalo - Espanhol XVIII	21	Leal Joao	166	GonÃ§alo Moura	135		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7251217	Goncalo - Espanhol XVII	20	Leal Joao	137	GonÃ§alo Moura	132		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7250550	Vitor Espanhol VI	17	Leal Joao	111	Vítor Pires	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7248346	Vitor Espanhol V	20	Leal Joao	128	Vítor Pires	126		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7247958	Goncalo - Espanhol XVI	19	GonÃ§alo Moura	136	Leal Joao	104		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7246897	Goncalo - Espanhol XV	20	Leal Joao	184	GonÃ§alo Moura	135		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7245676	Goncalo - Espanhol XIV	21	Leal Joao	231	GonÃ§alo Moura	186		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7244771	Vitor Espanhol IV	20	Leal Joao	119	Vítor Pires	37		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7244268	Goncalo - Espanhol XIII	20	Leal Joao	107	GonÃ§alo Moura	83		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7243209	Goncalo - Espanhol XII	20	Leal Joao	133	GonÃ§alo Moura	68		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7243109	Vitor Espanhol III	20	Vítor Pires	172	Leal Joao	163		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7242602	Goncalo - Espanhol XI	20	GonÃ§alo Moura	178	Leal Joao	175		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7241934	Goncalo - Espanhol X	21	Leal Joao	144	GonÃ§alo Moura	123		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7241712	Goncalo - Espanhol IX	19	Leal Joao	107	GonÃ§alo Moura	87		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7241600	Vitor Espanhol II	19	Vítor Pires	131	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7241004	Goncalo - Espanhol VIII	21	Leal Joao	177	GonÃ§alo Moura	155		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7240096	Goncalo - Espanhol VII	20	Leal Joao	124	GonÃ§alo Moura	70		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7238885	Goncalo - Espanhol VI	21	GonÃ§alo Moura	149	Leal Joao	121		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7238486	Goncalo - Espanhol V	20	GonÃ§alo Moura	92	Leal Joao	92		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7236269	Goncalo - Espanhol IV	21	Leal Joao	199	GonÃ§alo Moura	124		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7235497	Goncalo - Espanhol III	20	Leal Joao	226	GonÃ§alo Moura	140		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7233949	Goncalo - Espanhol II	20	Leal Joao	178	GonÃ§alo Moura	115		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7231063	Goncalo - Espanhol I	21	Leal Joao	267	GonÃ§alo Moura	141		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7231062	Vitor Espanhol I	15	Leal Joao	22	Vítor Pires	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7217193	partita di prova - partita112 corso avanzato, contro sconosciuto, che paura	21	Leal Joao	123	Bobcat Bob	88		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7206648	Threesome IX	7	Vítor Pires	6	Leal Joao	0	Dinah Costa	0		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7201999	Threesome VIII	19	Vítor Pires	126	Dinah Costa	92	Leal Joao	77		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7201998	Threesome VII	19	Vítor Pires	169	Leal Joao	150	Dinah Costa	124		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7200403	Live game (1-2 hours)	20	Marcus Tullius Cicero	164	Leal Joao	138		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7200392	Phil Collins's Game	20	Leal Joao	185	Phil Collins	120		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7200189	Leal Joao's Game	19	Leal Joao	94	m m	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7199297	Threesome VI	19	Vítor Pires	213	Leal Joao	175	Dinah Costa	134		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7199063	Threesome V	18	Vítor Pires	140	Leal Joao	129	Dinah Costa	79		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7196312	Threesome IV	19	Leal Joao	247	Vítor Pires	176	Dinah Costa	69		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7196124	Threesome III	19	Leal Joao	147	Dinah Costa	144	Vítor Pires	122		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7190948	Threesome II	18	Leal Joao	138	Vítor Pires	125	Dinah Costa	75		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7190947	Threesome |	18	Vítor Pires	144	Dinah Costa	83	Leal Joao	75		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7187028	BGO Forum League Game - Std 2P S14 D3 G29	21	Edward Ericson	109	Leal Joao	12		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7187026	BGO Forum League Game - Std 2P S14 D3 G27	20	Leal Joao	73	Emil E	61		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7187023	BGO Forum League Game - Std 2P S14 D3 G24	21	Leal Joao	110	Jeremiah Lee	85		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7187019	BGO Forum League Game - Std 2P S14 D3 G20	20	Patrick Zhang	228	Leal Joao	140		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7187015	BGO Forum League Game - Std 2P S14 D3 G16	19	Thomas T	62	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7183276	CCC it! (8)	19	Leal Joao	171	Darcy Delainey	92		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7183245	CCC it! (8)	21	Leal Joao	200	Darcy Delainey	151		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7180480	CCC it! (7)	20	Leal Joao	118	Darcy Delainey	101		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7178791	CCC it! (6)	20	Leal Joao	134	Darcy Delainey	103		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7176438	CCC it! (5)	21	Leal Joao	231	Darcy Delainey	134		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7174514	BGO Forum League Game - Std 2P S14 D3 G14	20	Leal Joao	104	Edward Ericson	59		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7174512	BGO Forum League Game - Std 2P S14 D3 G12	10	Leal Joao	2	Emil E	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7174509	BGO Forum League Game - Std 2P S14 D3 G9	20	Leal Joao	110	Jeremiah Lee	39		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7174505	BGO Forum League Game - Std 2P S14 D3 G5	20	Patrick Zhang	93	Leal Joao	42		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7174501	BGO Forum League Game - Std 2P S14 D3 G1	20	Thomas T	111	Leal Joao	108		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7170923	CCC it! (4)	20	Leal Joao	280	Darcy Delainey	200		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7164401	Free game	21	Leal Joao	172	Andrzej Ciosek	154	GrzeL GrzeL	98	Jay Avni	0	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+7163740	CCC it! (3)	22	Leal Joao	313	Darcy Delainey	185		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7161493	CCC it! (2)	19	Leal Joao	173	Darcy Delainey	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7159406	Fredrik Storehaug's Game	20	Fredrik Storehaug	131	Leal Joao	120		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7159178	CCC it!	16	Leal Joao	71	Darcy Delainey	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7159067	22	21	Leal Joao	189	Szydek Szydek	178		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7156492	Leal Joao's Game	20	Rob Flowers	164	Leal Joao	158		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7152339	BGO Forum League Game - Std 2P S13 D6 G28	19	Tai Yau	124	Leal Joao	121		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7152337	BGO Forum League Game - Std 2P S13 D6 G26	14	Leal Joao	18	Rodrigo Nascimento	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7152335	BGO Forum League Game - Std 2P S13 D6 G24	20	Leal Joao	123	Ken Swanson	96		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7152332	BGO Forum League Game - Std 2P S13 D6 G21	20	Leal Joao	99	Michael R	94		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7152328	BGO Forum League Game - Std 2P S13 D6 G17	19	Leal Joao	112	Tomi Terentjeff	93		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7143899	BGO Forum League Game - Std 2P S13 D6 G13	21	Leal Joao	171	Tai Yau	135		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7143897	BGO Forum League Game - Std 2P S13 D6 G11	20	Leal Joao	107	Rodrigo Nascimento	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7143895	BGO Forum League Game - Std 2P S13 D6 G9	20	Leal Joao	114	Ken Swanson	95		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7143892	BGO Forum League Game - Std 2P S13 D6 G6	21	Michael R	177	Leal Joao	98		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7143888	BGO Forum League Game - Std 2P S13 D6 G2	19	Tomi Terentjeff	141	Leal Joao	101		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7125542	BGO Forum League Game - Std 2P S12 D7 G28	19	Leal Joao	150	Marcin Stepniewski	144		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7125539	BGO Forum League Game - Std 2P S12 D7 G25	17	Leal Joao	31	Tai Yau	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7125536	BGO Forum League Game - Std 2P S12 D7 G22	20	Lasse Björkman	179	Leal Joao	144		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7125533	BGO Forum League Game - Std 2P S12 D7 G19	20	Leal Joao	94	Lukasz Piworowicz	73		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7125530	BGO Forum League Game - Std 2P S12 D7 G16	20	Leal Joao	171	Nick Palmer	168		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7120206	BGO Forum League Game - Std 2P S12 D7 G13	20	Marcin Stepniewski	99	Leal Joao	57		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7120203	BGO Forum League Game - Std 2P S12 D7 G10	20	Tai Yau	134	Leal Joao	122		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7120200	BGO Forum League Game - Std 2P S12 D7 G7	20	Lasse Björkman	79	Leal Joao	46		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7120196	BGO Forum League Game - Std 2P S12 D7 G4	17	Lukasz Piworowicz	85	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+7120193	BGO Forum League Game - Std 2P S12 D7 G1	20	Leal Joao	174	Nick Palmer	67		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+204561	Fast	9	Leal Joao	17	Anssi Sahri	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+204557	2222222222222222222	19	Wojtas 071	162	Leal Joao	72		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+202815	Dominic Bernard's Game	20	Leal Joao	203	Dominic Bernard	76		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+202744	Quick Play Game	20	Leal Joao	186	Alexis Schuette	33		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+194587	Leal Joao's Game (2)	21	Leal Joao	118	Vítor Pires	111		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+189300	Leal Joao's Game	3	Leal Joao	0	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+189269	fastest 2er expert2 ( 1-2 hours )	20	Leal Joao	99	florian monod	91		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+182864	BGO Forum League Game - Std 2P S10 D6 G30	17	Mathias Johansson	63	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+182859	BGO Forum League Game - Std 2P S10 D6 G25	20	Leal Joao	138	Mac Czapla	132		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+182858	BGO Forum League Game - Std 2P S10 D6 G24	20	  Wis	171	Leal Joao	154		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+182856	BGO Forum League Game - Std 2P S10 D6 G22	21	Leal Joao	140	JohnAlan Davis	105		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+182855	BGO Forum League Game - Std 2P S10 D6 G21	20	John piller	124	Leal Joao	80		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+177671	BGO Forum League Game - Std 2P S10 D6 G10	21	John piller	150	Leal Joao	92		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+177670	BGO Forum League Game - Std 2P S10 D6 G9	20	Leal Joao	142	JohnAlan Davis	121		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+177668	BGO Forum League Game - Std 2P S10 D6 G7	19	Leal Joao	47	  Wis	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+177667	BGO Forum League Game - Std 2P S10 D6 G6	20	Mac Czapla	179	Leal Joao	174		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+177662	BGO Forum League Game - Std 2P S10 D6 G1	20	Leal Joao	102	Mathias Johansson	93		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+173768	Leal Joao's Game	1	Leal Joao	0	duarte conceicao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+173767	Leal Joao's Game	19	Leal Joao	151	Vítor Pires	103		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+162384	BGO Forum League Game - Std 2P S9 D6 G28	20	Leal Joao	138	John Sharples	64		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+162383	BGO Forum League Game - Std 2P S9 D6 G27	20	Leal Joao	179	Jonathan Gerth	169		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+162377	BGO Forum League Game - Std 2P S9 D6 G21	20	Leal Joao	126	Donald Morris	87		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+162376	BGO Forum League Game - Std 2P S9 D6 G20	20	D J S	149	Leal Joao	95		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+162373	BGO Forum League Game - Std 2P S9 D6 G17	21	Kamil Marcin	144	Leal Joao	105		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+159206	BGO Forum League Game - Std 2P S9 D6 G14	19	Kamil Marcin	141	Leal Joao	99		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+159203	BGO Forum League Game - Std 2P S9 D6 G11	21	Leal Joao	210	D J S	139		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+159202	BGO Forum League Game - Std 2P S9 D6 G10	20	Donald Morris	151	Leal Joao	72		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+159196	BGO Forum League Game - Std 2P S9 D6 G4	20	Leal Joao	146	Jonathan Gerth	128		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+159195	BGO Forum League Game - Std 2P S9 D6 G3	20	Leal Joao	125	John Sharples	112		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+124641	BGO Forum League Game - Std 2P S7 D6 G38	20	Haim Hochboim	131	Leal Joao	107		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+124637	BGO Forum League Game - Std 2P S7 D6 G34	20	Leal Joao	133	Nick Palmer	120		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+124636	BGO Forum League Game - Std 2P S7 D6 G33	21	Alexey Riabokon	117	Leal Joao	116		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+124625	BGO Forum League Game - Std 2P S7 D6 G22	20	René Goedhart	122	Leal Joao	110		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+124624	BGO Forum League Game - Std 2P S7 D6 G21	20	Jacob Coughlan	87	Leal Joao	79		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+119130	BGO Forum League Game - Std 2P S7 D6 G14	21	Leal Joao	188	Jacob Coughlan	120		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+119129	BGO Forum League Game - Std 2P S7 D6 G13	20	Leal Joao	112	Nick Palmer	83		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+119126	BGO Forum League Game - Std 2P S7 D6 G10	19	Leal Joao	79	Alexey Riabokon	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+119125	BGO Forum League Game - Std 2P S7 D6 G9	20	Francois Foucart	135	Leal Joao	107		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+119117	BGO Forum League Game - Std 2P S7 D6 G1	15	Leal Joao	35	matias holte	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+118546	8/2 Slow. slow Game	19	Leal Joao	183	Kiri Naiman	150	Joe Lux	139	Marc Dave	119	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+118202	Leal Joao's Game	21	Leal Joao	232	Leal Joao	199		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+118201	Ass spanking	20	Sean McAfee	92	Leal Joao	66		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+118199	Leal Joao's Game	20	Vítor Pires	164	Leal Joao	156		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+118198	Leal Joao's Game	20	Vítor Pires	161	Leal Joao	132		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+118196	Global	18	Rodrigo Nascimento	63	Krycha Krycha	62	Leal Joao	45		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+108222	BGO Forum League Game - Std 2P S6 D5 G26	20	Leal Joao	124	W M	60		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+108216	BGO Forum League Game - Std 2P S6 D5 G20	20	Will Skippen	122	Leal Joao	52		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+108215	BGO Forum League Game - Std 2P S6 D5 G19	18	Rob Flowers	70	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+105014	BGO Forum League Game - Std 2P S6 D5 G15	20	Vítor Pires	185	Leal Joao	130		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+105011	BGO Forum League Game - Std 2P S6 D5 G12	20	Rob Flowers	147	Leal Joao	114		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+105010	BGO Forum League Game - Std 2P S6 D5 G11	20	Leal Joao	109	Will Skippen	88		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+105005	BGO Forum League Game - Std 2P S6 D5 G6	20	Metzger Balazs	59	Leal Joao	46		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+105004	BGO Forum League Game - Std 2P S6 D5 G5	20	Leal Joao	105	W M	101		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+97962	Mano-a-mano 25	19	Vítor Pires	72	Leal Joao	67		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+96560	BGO Forum League Game - Std 2P S5 D2 G27	17	Petri Savola	35	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+96559	BGO Forum League Game - Std 2P S5 D2 G26	18	Royal Ape	43	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+96556	BGO Forum League Game - Std 2P S5 D2 G23	20	Joel Lytle	100	Leal Joao	35		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+96555	BGO Forum League Game - Std 2P S5 D2 G22	19	Riku Koskinen	102	Leal Joao	83		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+96551	BGO Forum League Game - Std 2P S5 D2 G18	20	Leal Joao	127	Daniel Schloesser	95		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+92853	BGO Forum League Game - Std 2P S5 D2 G13	20	Leal Joao	120	Daniel Schloesser	116		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+92849	BGO Forum League Game - Std 2P S5 D2 G9	16	Leal Joao	46	Riku Koskinen	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+92848	BGO Forum League Game - Std 2P S5 D2 G8	18	Joel Lytle	86	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+92845	BGO Forum League Game - Std 2P S5 D2 G5	21	Royal Ape	134	Leal Joao	104		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+92844	BGO Forum League Game - Std 2P S5 D2 G4	17	Petri Savola	100	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+84833	BGO Forum League Game - Std 2P S4 D4 G30	17	Grzegorz Pajdo	114	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+84828	BGO Forum League Game - Std 2P S4 D4 G25	20	Marcin Stepniewski	180	Leal Joao	146		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+84827	BGO Forum League Game - Std 2P S4 D4 G24	20	Leal Joao	149	Vítor Pires	123		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+84825	BGO Forum League Game - Std 2P S4 D4 G22	20	Leal Joao	177	Simon Hilton	138		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+84824	BGO Forum League Game - Std 2P S4 D4 G21	19	Leal Joao	143	Petri Piiroinen	135		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+81547	BGO Forum League Game - Std 2P S4 D4 G10	20	Petri Piiroinen	196	Leal Joao	124		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+81546	BGO Forum League Game - Std 2P S4 D4 G9	20	Leal Joao	179	Simon Hilton	105		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+81544	BGO Forum League Game - Std 2P S4 D4 G7	21	Leal Joao	162	Vítor Pires	31		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+81543	BGO Forum League Game - Std 2P S4 D4 G6	19	Leal Joao	110	Marcin Stepniewski	77		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+81538	BGO Forum League Game - Std 2P S4 D4 G1	20	Leal Joao	142	Grzegorz Pajdo	75		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+73202	BGO Forum League Game - Std 2P S3 D0 G88	20	Leal Joao	159	James Hornby	122		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+73197	BGO Forum League Game - Std 2P S3 D0 G83	19	aran warszawski	175	Leal Joao	103		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+73175	BGO Forum League Game - Std 2P S3 D0 G61	20	Leal Joao	186	Haim Hochboim	174		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+73173	BGO Forum League Game - Std 2P S3 D0 G59	21	Leal Joao	314	Vítor Pires	140		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+73170	BGO Forum League Game - Std 2P S3 D0 G56	13	Leal Joao	18	Papa Dude	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+70338	BGO Forum League Game - Std 2P S3 D0 G47	20	Herman Hiddema	133	Leal Joao	109		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+70336	BGO Forum League Game - Std 2P S3 D0 G45	20	Leal Joao	127	Marco Beccari	118		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+70334	BGO Forum League Game - Std 2P S3 D0 G43	19	matias holte	96	Leal Joao	74		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+70324	BGO Forum League Game - Std 2P S3 D0 G33	20	Väistö Pekka	113	Leal Joao	68		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+70320	BGO Forum League Game - Std 2P S3 D0 G29	20	Leal Joao	193	René Goedhart	109		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+68809	Mano-a-mano 24	20	Leal Joao	185	Vítor Pires	114		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+68808	Mano-a-mano 23	20	Leal Joao	178	Vítor Pires	156		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+68807	Mano-a-mano 22	20	Leal Joao	110	Vítor Pires	94		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+68806	Mano-a-mano 21	19	Vítor Pires	162	Leal Joao	149		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+67215	Mano-a-mano 20	17	Vítor Pires	25	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+67170	Mano-a-mano 19	19	Leal Joao	118	Vítor Pires	92		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+62482	Polish Game for 4- one move a day please	21	Greg Meyer	225	Leal Joao	142	David Cunkelman	0	Joe Lux	0	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+62479	Play all the games	19	Jeff Clark	184	Leal Joao	118	Nathan Sickler	96		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+60125	Slow one week game 	18	Leal Joao	85	Secret Warrior	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+60124	Steel Cage Death Match #14	20	James Fuqua	118	Leal Joao	114		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+60123	Thomas Game 	20	Thomas T	197	Leal Joao	59		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+60122	Live Game Only	20	Jonas B.	238	Leal Joao	181	Dan1 K	156	Michael Jørgensen	142	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+59994	2p	20	Leal Joao	132	Cul Luc	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+58731	Leal Joao's Game	21	Leal Joao	128	chili crab	60		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+58726	Come play a game	19	Eric Krasnauskas	242	charles clairet	208	Jessica Ramey	168	Leal Joao	133	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+54633	Leal Joao's Game	21	chili crab	167	Leal Joao	120		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+54632	Leal Joao's Game	1	Leal Joao	0	Mans Akerlund	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+50003	Allan Jacobsen's Game	21	Leal Joao	141	Allan Jacobsen	33		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+49735	Ass kicking game	20	Leal Joao	192	Mauri Sahlberg	122		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+49597	Leal Joao's Game	1	Leal Joao	0	Rui Conde	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+48164	Mano-a-mano 18	19	Vítor Pires	157	Leal Joao	123		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+48162	Mano-a-mano 17	19	Vítor Pires	160	Leal Joao	128		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+48160	Mano-a-mano 16	19	Leal Joao	134	Vítor Pires	89		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+48159	Mano-a-mano 15	19	Leal Joao	139	Vítor Pires	131		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+36143	Miguel e espanhol	19	Leal Joao	94	Miguel Barreiro	62		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+26578	Leal Joao's Game	21	Leal Joao	137	Alexander Schmidt	61		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+20460	Leal Joao's Game	20	Leal Joao	101	Miguel Barreiro	58		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+18914	Mano-a-Mano 14	19	Vítor Pires	121	Leal Joao	83		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+17914	Mano-a-Mano 13	19	Vítor Pires	127	Leal Joao	91		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+17913	Mano-a-Mano 12	20	Vítor Pires	137	Leal Joao	82		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+16379	Leal Joao's Game	20	Leal Joao	92	Jay Avni	81		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+15582	Victor N's Game	20	Victor N	168	Leal Joao	48		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+15353	Leal Joao's Game	19	Victor N	113	Leal Joao	108		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+14881	Mano-a-Mano 11	20	Vítor Pires	205	Leal Joao	186		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+14880	Mano-a-mano 10	19	Leal Joao	156	Vítor Pires	125		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+14879	Desistir neste	3	Leal Joao	0	Vítor Pires	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+14493	Mano-a-Mano 9	19	Leal Joao	101	Vítor Pires	95		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+14349	JJ Series - Part 3	10	Leal Joao	15	Joao Rodrigues	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+14348	JJ Series - Part 2	12	Leal Joao	21	Joao Rodrigues	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+13932	Meeeeeeeeeeee2	6	Leal Joao	4	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+13931	Meeeeeeeeeeee	7	Leal Joao	9	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+13930	JJ Series - part 1	18	Leal Joao	66	Joao Rodrigues	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+13663	enganeime e meti o espanhol em 2 slots...	4	Joao Rodrigues	1	Vítor Pires	0	Miguel Barreiro	0	Leal Joao	0	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+13617	pq tive q criar uma conta nova e n sabia nem o user nem a pass :P	3	Vítor Pires	0	Miguel Barreiro	0	Leal Joao	0	Leal Joao	0	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+13574	sao3 e ganho eu	17	Leal Joao	142	Vítor Pires	94	Joao Rodrigues	75		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+13573	Ala quatro	20	Leal Joao	213	Miguel Barreiro	196	Vítor Pires	176	Joao Rodrigues	0	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+12393	Trio Odemira 3	18	Leal Joao	91	Vítor Pires	78	Miguel Barreiro	76		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+12392	Trio Odemira 2	18	Vítor Pires	193	Miguel Barreiro	192	Leal Joao	184		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+12379	Mano-a-Mano 8	19	Leal Joao	220	Vítor Pires	187		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+12225	Leal Joao's Game	19	Vítor Pires	144	Leal Joao	143		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+11556	Mano-a-Mano 6	19	Leal Joao	97	Vítor Pires	82		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+11555	Mano-a-Mano 5	16	Vítor Pires	93	Leal Joao	0		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+10782	Trio Odemira 1	18	Vítor Pires	134	Miguel Barreiro	120	Leal Joao	62		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+10034	Mano-a-Mano 4	19	Vítor Pires	132	Leal Joao	112		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+10033	Mano-a-Mano 3	20	Vítor Pires	132	Leal Joao	54		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+9717	Through the game	19	Leal Joao	200	David Socias	140	Eloy Munoz	30		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+9350	Mano-a-Mano 2	19	Vítor Pires	129	Leal Joao	111		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+8471	Mano-a-mano	20	Vítor Pires	73	Leal Joao	52		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+8348	Joao - not so fast game	19	Leal Joao	135	DN Jerome-Alexandre Leduc	109	Bill K	0		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+6951	Threesome :P	20	Leal Joao	210	Vítor Pires	187	Kevin Devine	129		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+6950	Gang of Four	20	Vítor Pires	193	Soulless  	174	Leal Joao	159	Keith Walton	148	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+6763	Online start to finish	21	Leal Joao	147	Steve Campbell	37		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+6631	Vítor Pires's Game	19	Leal Joao	110	Vítor Pires	58		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+6629	Leal Joao's Game	20	Leal Joao	197	Vítor Pires	129		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+6607	Leal Joao's Game	21	Leal Joao	170	Joao Rodrigues	67		0		0	0	0	2	NULL	NULL	NULL	NULL	NULL	old
+6603	dave seidner's game - email notifications on, please	20	Leal Joao	266	Jay Avni	205	dave seidner	171	John Anderson	159	0	0	4	NULL	NULL	NULL	NULL	NULL	old
+6601	The Orc's Game	19	John Anderson	217	Leal Joao	171	The Orc	158		0	0	0	3	NULL	NULL	NULL	NULL	NULL	old
+7454531	Liga AoJ E05 D02A J04	18	Jorge PPD	124	Diogo  Durão	74	Sergio Ribeiro 	72		0	1	1	3	Diogo  Durão	Sergio Ribeiro 	Jorge PPD	Journal	3	new
+7454528	Liga AoJ E05 D02A J01	18	Vítor Baixinho	164	Jorge PPD	160	Sergio Ribeiro 	118		0	1	1	3	Vítor Baixinho	Sergio Ribeiro 	Jorge PPD	Journal	1	new
+7454534	Liga AoJ E05 D01 J03	18	Ricardo Biscaia	202	Mário Sousa	176	nogud nogud	172		0	1	1	3	nogud nogud	Ricardo Biscaia	Mário Sousa	Journal	2	new
+7454532	Liga AoJ E05 D01 J01	18	Pedro Sequeira	219	nogud nogud	130	Mário Sousa	114		0	1	1	3	Mário Sousa	Pedro Sequeira	nogud nogud	Journal	2	new
+7454530	Liga AoJ E05 D02A J03	19	Jorge PPD	239	Vítor Baixinho	235	Diogo  Durão	232		0	1	1	3	Jorge PPD	Diogo  Durão	Vítor Baixinho	Journal	1	new
+7454525	Liga AoJ E05 D02B J02	18	Vítor Pires	134	David Rodrigues 	102	Leal Joao	85		0	1	1	3	Vítor Pires	David Rodrigues 	Leal Joao	Journal	1	new
+7455257	Liga AoJ E05 D02 1vs1	19	Vítor Baixinho	102	Jorge PPD	98		0		0	1	1	2	Jorge PPD	Vítor Baixinho	Journal	Chat	2	new
+7454539	Liga AoJ E05 D03A J02	18	Ariana Pintor	234	Márcio Ferreira	179	Cristovão Neto	152		0	1	1	3	Cristovão Neto	Ariana Pintor	Márcio Ferreira	Journal	2	new
+7454538	 Liga AoJ E05 D03A J04	19	Cristovão Neto	274	Luis Baixinho	238	Márcio Ferreira	162		0	1	1	3	Márcio Ferreira	Cristovão Neto	Luis Baixinho	Journal	2	new
+7454535	Liga AoJ E05 D01 J04	18	Ricardo Biscaia	155	nogud nogud	139	Pedro Sequeira	135		0	1	1	3	Pedro Sequeira	nogud nogud	Ricardo Biscaia	Journal	3	new
+7454533	Liga AoJ E05 D01 J02	18	Ricardo Biscaia	228	Mário Sousa	162	Pedro Sequeira	139		0	1	1	3	Ricardo Biscaia	Mário Sousa	Pedro Sequeira	Journal	1	new
+7454527	Liga AoJ E05 D02B J04	17	Vítor Pires	143	Leal Joao	136	Joao Pontes	125		0	1	1	3	Leal Joao	Joao Pontes	Vítor Pires	Journal	3	new
+7454523	Liga AoJ E05 D03A J06	20	Carlos Santos	220	Marcos Pires	202	Cristovão Neto	162		0	1	1	3	Marcos Pires	Carlos Santos	Cristovão Neto	Journal	2	new
+7454522	Liga AoJ E05 D03A J05	19	Marcos Pires	195	Carlos Santos	159	Márcio Ferreira	120		0	1	1	3	Carlos Santos	Márcio Ferreira	Marcos Pires	Journal	3	new
+7454519	Liga AoJ E05 D03A J03	19	Marcos Pires	232	Luis Baixinho	127	Ariana Pintor	120		0	1	1	3	Luis Baixinho	Marcos Pires	Ariana Pintor	Journal	2	new
+7454518	Liga AoJ E05 D03A J01	18	Carlos Santos	147	Ariana Pintor	142	Luis Baixinho	140		0	1	1	3	Ariana Pintor	Luis Baixinho	Carlos Santos	Journal	3	new
+7464395	Liga AoJ E08 D01 J08	17	Ricardo Biscaia	163	Pedro Sequeira	156	Diogo  Durão	137		0	1	1	3	Diogo  Durão	Ricardo Biscaia	Pedro Sequeira	Journal	2	new
+7464394	Liga AoJ E08 D01 J07	17	Ricardo Biscaia	126	Diogo  Durão	92	nogud nogud	83		0	1	1	3	Ricardo Biscaia	Diogo  Durão	nogud nogud	Journal	1	new
+7464393	Liga AoJ E08 D01 J06	17	Pedro Sequeira	158	nogud nogud	139	Ricardo Biscaia	123		0	1	1	3	nogud nogud	Pedro Sequeira	Ricardo Biscaia	Journal	2	new
+7464392	Liga AoJ E08 D01 J05	17	Pedro Sequeira	160	nogud nogud	110	Diogo  Durão	68		0	1	1	3	Pedro Sequeira	nogud nogud	Diogo  Durão	Journal	1	new
+7464391	Liga AoJ E08 D02 J09	20	Luis Baixinho	255	Cristovão Neto	183	Carlos Santos	142		0	1	1	3	Carlos Santos	Cristovão Neto	Luis Baixinho	Journal	3	new
+7464390	Liga AoJ E08 D02 J08	20	Vítor Baixinho	219	Carlos Santos	213	Gonçalo Moura	199		0	1	1	3	Vítor Baixinho	Gonçalo Moura	Carlos Santos	Journal	1	new
+7464389	Liga AoJ E08 D02 J07	19	Vítor Pires	181	Eduardo Cruz	156	Mário Sousa	115		0	1	1	3	Mário Sousa	Vítor Pires	Eduardo Cruz	Journal	2	new
+7464388	Liga AoJ E08 D02 J06	19	Leal Joao	120	Cristovão Neto	87	Luis Baixinho	74		0	1	1	3	Cristovão Neto	Luis Baixinho	Leal Joao	Journal	3	new
+7464387	Liga AoJ E08 D02 J10	19	Gonçalo Moura	199	Carlos Santos	153	Mário Sousa	147		0	1	1	3	Carlos Santos	Mário Sousa	Gonçalo Moura	Journal	3	new
+7464386	Liga AoJ E08 D02 J04	19	Luis Baixinho	177	Vítor Pires	150	Vítor Baixinho	120		0	1	1	3	Vítor Pires	Vítor Baixinho	Luis Baixinho	Journal	3	new
+7464385	Liga AoJ E08 D02 J03	18	Eduardo Cruz	118	Gonçalo Moura	114	Vítor Pires	70		0	1	1	3	Gonçalo Moura	Eduardo Cruz	Vítor Pires	Journal	2	new
+7464384	Liga AoJ E08 D02 J02	18	Mário Sousa	164	Vítor Baixinho	162	Leal Joao	95		0	1	1	3	Leal Joao	Mário Sousa	Vítor Baixinho	Journal	2	new
+7463397	Liga AoJ E08 D02 J09	20	Vítor Baixinho	182	Cristovão Neto	122	Eduardo Cruz	107		0	1	1	3	Cristovão Neto	Vítor Baixinho	Eduardo Cruz	Journal	2	new
+7463396	Liga AoJ E08 D02 J08	18	Mário Sousa	136	Leal Joao	115	Gonçalo Moura	85		0	1	1	3	Mário Sousa	Leal Joao	Gonçalo Moura	Journal	1	new
+7463395	Liga AoJ E08 D02 J07	19	Mário Sousa	243	Luis Baixinho	182	Eduardo Cruz	140		0	1	1	3	Luis Baixinho	Eduardo Cruz	Mário Sousa	Journal	3	new
+7463394	Liga AoJ E08 D02 J06	19	Vítor Baixinho	149	Gonçalo Moura	136	Cristovão Neto	65		0	1	1	3	Vítor Baixinho	Gonçalo Moura	Cristovão Neto	Journal	1	new
+7463393	Liga AoJ E08 D02 J05	19	Vítor Baixinho	169	Carlos Santos	142	Eduardo Cruz	117		0	1	1	3	Eduardo Cruz	Carlos Santos	Vítor Baixinho	Journal	3	new
+7463392	Liga AoJ E08 D02 J04	19	Vítor Pires	235	Carlos Santos	189	Luis Baixinho	130		0	1	1	3	Luis Baixinho	Carlos Santos	Vítor Pires	Journal	3	new
+7463391	Liga AoJ E08 D02 J03	18	Mário Sousa	123	Vítor Pires	116	Cristovão Neto	59		0	1	1	3	Vítor Pires	Cristovão Neto	Mário Sousa	Journal	3	new
+7463390	Liga AoJ E08 D02 J02	18	Gonçalo Moura	192	Luis Baixinho	192	Leal Joao	175		0	1	1	3	Gonçalo Moura	Luis Baixinho	Leal Joao	Journal	1	new
+7463389	Liga AoJ E08 D02 J01	18	Vítor Pires	174	Leal Joao	172	Carlos Santos	117		0	1	1	3	Leal Joao	Vítor Pires	Carlos Santos	Journal	2	new
+7463388	Liga AoJ E08 D01 J04	17	Ricardo Biscaia	208	Pedro Sequeira	197	Diogo  Durão	169		0	1	1	3	Pedro Sequeira	Ricardo Biscaia	Diogo  Durão	Journal	2	new
+7463387	Liga AoJ E08 D01 J03	18	Diogo  Durão	217	Ricardo Biscaia	212	nogud nogud	208		0	1	1	3	nogud nogud	Diogo  Durão	Ricardo Biscaia	Journal	2	new
+7463386	Liga AoJ E08 D01 J02	17	Pedro Sequeira	124	Ricardo Biscaia	95	nogud nogud	92		0	1	1	3	Ricardo Biscaia	Pedro Sequeira	nogud nogud	Journal	2	new
+7463385	Liga AoJ E08 D01 J01	18	Pedro Sequeira	199	nogud nogud	152	Diogo  Durão	142		0	1	1	3	Diogo  Durão	nogud nogud	Pedro Sequeira	Journal	3	new
+7459501	Liga AoJ E07 D03 J05	19	Eduardo Cruz	257	Luis Baixinho	233	Ariana Pintor	218		0	1	1	3	Ariana Pintor	Luis Baixinho	Eduardo Cruz	Journal	3	new
+7459500	Liga AoJ E07 D03 J04	20	Eduardo Cruz	297	Luis Baixinho	247	Cristovão Neto	153		0	1	1	3	Cristovão Neto	Eduardo Cruz	Luis Baixinho	Journal	2	new
+7459499	Liga AoJ E07 D03 J03	18	Luis Baixinho	198	Carlos Santos	165	Cristovão Neto	138		0	1	1	3	Luis Baixinho	Cristovão Neto	Carlos Santos	Journal	1	new
+7459498	Liga AoJ E07 D03 J02	18	Ariana Pintor	202	Eduardo Cruz	199	Carlos Santos	131		0	1	1	3	Eduardo Cruz	Carlos Santos	Ariana Pintor	Journal	3	new
+7459497	Liga AoJ E07 D03 J01	19	Cristovão Neto	191	Ariana Pintor	156	Carlos Santos	139		0	1	1	3	Carlos Santos	Ariana Pintor	Cristovão Neto	Journal	3	new
+7459496	Liga AoJ E07 D02B J04	18	nogud nogud	198	Gonçalo Moura	132	Marcos Pires	125		0	1	1	3	Marcos Pires	Gonçalo Moura	nogud nogud	Journal	3	new
+7459495	Liga AoJ E07 D02B J03	18	nogud nogud	183	Gonçalo Moura	144	Vítor Baixinho	107		0	1	1	3	Vítor Baixinho	nogud nogud	Gonçalo Moura	Journal	2	new
+7459494	Liga AoJ E07 D02B J02	18	Vítor Baixinho	151	Gonçalo Moura	143	Marcos Pires	94		0	1	1	3	Gonçalo Moura	Marcos Pires	Vítor Baixinho	Journal	3	new
+7459493	Liga AoJ E07 D02B J01	17	nogud nogud	216	Vítor Baixinho	196	Marcos Pires	182		0	1	1	3	nogud nogud	Vítor Baixinho	Marcos Pires	Journal	1	new
+7459491	Liga AoJ E07 D02A J03	18	Diogo  Durão	133	Vítor Pires	121	Sergio Ribeiro 	84		0	1	1	3	Vítor Pires	Sergio Ribeiro 	Diogo  Durão	Journal	3	new
+7459488	Liga AoJ E07 D01 J04	18	Ricardo Biscaia	247	Leal Joao	219	Mário Sousa	167		0	1	1	3	Leal Joao	Ricardo Biscaia	Mário Sousa	Journal	2	new
+7459487	Liga AoJ E07 D01 J03	19	Pedro Sequeira	211	Mário Sousa	208	Ricardo Biscaia	178		0	1	1	3	Pedro Sequeira	Mário Sousa	Ricardo Biscaia	Journal	1	new
+7459486	Liga AoJ E07 D01 J02	17	Pedro Sequeira	123	Ricardo Biscaia	121	Leal Joao	108		0	1	1	3	Ricardo Biscaia	Leal Joao	Pedro Sequeira	Journal	3	new
+7459485	Liga AoJ E07 D01 J01	18	Leal Joao	247	Mário Sousa	188	Pedro Sequeira	165		0	1	1	3	Mário Sousa	Pedro Sequeira	Leal Joao	Journal	3	new
+7457191	Taça da Liga AoJ	19	nogud nogud	218	Eduardo Cruz	173	Ricardo Biscaia	164		0	1	1	3	Ricardo Biscaia	nogud nogud	Eduardo Cruz	Journal	2	new
+7457006	Liga Aoj E06 D03 J07	18	Gonçalo Moura	244	Ariana Pintor	152	Cristovão Neto	121		0	1	1	3	Cristovão Neto	Ariana Pintor	Gonçalo Moura	Journal	3	new
+7457005	Liga Aoj E06 D03 J05	18	Gonçalo Moura	182	Sergio Ribeiro 	179	Eduardo Cruz	157		0	1	1	3	Gonçalo Moura	Sergio Ribeiro 	Eduardo Cruz	Journal	1	new
+7457004	Liga AoJ E06 D03 J03	20	Gonçalo Moura	141	Luis Baixinho	98	Márcio Ferreira	91		0	1	1	3	Márcio Ferreira	Gonçalo Moura	Luis Baixinho	Journal	2	new
+7456998	Liga AoJ E06 D03A J06	19	Sergio Ribeiro 	211	Márcio Ferreira	166	Cristovão Neto	111		0	1	1	3	Sergio Ribeiro 	Cristovão Neto	Márcio Ferreira	Journal	1	new
+7456997	Liga AoJ E06 D03A J04	20	Eduardo Cruz	263	Ariana Pintor	168	Márcio Ferreira	71		0	1	1	3	Eduardo Cruz	Márcio Ferreira	Ariana Pintor	Journal	1	new
+7456996	Liga AoJ E06 D03A J02	18	Sergio Ribeiro 	295	Luis Baixinho	232	Ariana Pintor	179		0	1	1	3	Ariana Pintor	Luis Baixinho	Sergio Ribeiro 	Journal	3	new
+7456995	Liga AoJ E06 D03A J01	19	Eduardo Cruz	191	Luis Baixinho	180	Cristovão Neto	95		0	1	1	3	Luis Baixinho	Eduardo Cruz	Cristovão Neto	Journal	2	new
+7456994	Liga AoJ E06 D02B J04	18	Marcos Pires	134	nogud nogud	121	Jorge PPD	101		0	1	1	3	Marcos Pires	nogud nogud	Jorge PPD	Journal	1	new
+7456993	Liga AoJ E06 D02B J03	18	nogud nogud	209	Jorge PPD	204	Leal Joao	155		0	1	1	3	nogud nogud	Jorge PPD	Leal Joao	Journal	1	new
+7456992	Liga AoJ E06 D02B J02	19	Leal Joao	199	Jorge PPD	177	Marcos Pires	138		0	1	1	3	Jorge PPD	Leal Joao	Marcos Pires	Journal	2	new
+7456991	Liga AoJ E06 D02B J01	18	Leal Joao	137	Marcos Pires	112	nogud nogud	104		0	1	1	3	Leal Joao	Marcos Pires	nogud nogud	Journal	1	new
+7456990	Liga AoJ E06 D02A J04	18	Diogo  Durão	164	Carlos Santos	132	Mário Sousa	122		0	1	1	3	Carlos Santos	Diogo  Durão	Mário Sousa	Journal	2	new
+7456989	Liga AoJ E06 D02A J03	18	Mário Sousa	222	Diogo  Durão	205	Joao Pontes	193		0	1	1	3	Diogo  Durão	Mário Sousa	Joao Pontes	Journal	2	new
+7456988	Liga AoJ E06 D02A J02	18	Mário Sousa	218	Joao Pontes	216	Carlos Santos	199		0	1	1	3	Mário Sousa	Joao Pontes	Carlos Santos	Journal	1	new
+7456987	Liga AoJ E06 D02A J01	19	Joao Pontes	215	Diogo  Durão	172	Carlos Santos	122		0	1	1	3	Joao Pontes	Carlos Santos	Diogo  Durão	Journal	1	new
+7456986	Liga AoJ E06 D01 J04	17	Pedro Sequeira	130	Vítor Pires	96	Ricardo Biscaia	88		0	1	1	3	Vítor Pires	Pedro Sequeira	Ricardo Biscaia	Journal	2	new
+7456985	Liga AoJ E06 D01 J03	18	Pedro Sequeira	207	Ricardo Biscaia	171	Vítor Baixinho	167		0	1	1	3	Pedro Sequeira	Ricardo Biscaia	Vítor Baixinho	Journal	1	new
+7456984	Liga AoJ E06 D01 J02	18	Ricardo Biscaia	143	Vítor Baixinho	100	Vítor Pires	41		0	1	1	3	Ricardo Biscaia	Vítor Baixinho	Vítor Pires	Journal	1	new
+7456983	Liga AoJ E06 D01 J01	19	Vítor Pires	219	Pedro Sequeira	202	Vítor Baixinho	177		0	1	1	3	Vítor Baixinho	Vítor Pires	Pedro Sequeira	Journal	2	new
+7454526	Liga AoJ E05 D02B J03	17	Vítor Pires	195	Joao Pontes	176	David Rodrigues 	0		0	1	1	3	Joao Pontes	Vítor Pires	NULL	Journal	2	new
+7454524	Liga AoJ E05 D02B J01	18	Joao Pontes	124	Leal Joao	116	David Rodrigues 	0		0	1	1	3	NULL	Leal Joao	Joao Pontes	Journal	3	new
+7465982	Liga AoJ E09 D02 J07	18	Leal Joao	159	Gonçalo Moura	129	Luis Baixinho	50		0	1	1	3	Luis Baixinho	Leal Joao	Gonçalo Moura	Journal	2	new
+7465978	Liga AoJ E09 D02 J03	18	nogud nogud	307	Leal Joao	230	Andre Sousa	160		0	1	1	3	Leal Joao	Andre Sousa	nogud nogud	Journal	3	new
+7465975	Liga AoJ E09 D01 J05	18	Vítor Pires	192	Pedro Sequeira	180	Ricardo Biscaia	136		0	1	1	3	Vítor Pires	Pedro Sequeira	Ricardo Biscaia	Journal	1	new
+7465973	Liga AoJ E09 D01 J03	18	Ricardo Biscaia	124	Vítor Baixinho	90	Pedro Sequeira	55		0	1	1	3	Pedro Sequeira	Ricardo Biscaia	Vítor Baixinho	Journal	2	new
+7465972	Liga AoJ E09 D01 J02	18	Pedro Sequeira	212	Mário Sousa	181	Vítor Baixinho	172		0	1	1	3	Mário Sousa	Vítor Baixinho	Pedro Sequeira	Journal	3	new
+7465971	Liga AoJ E09 D01 J01	18	Mário Sousa	243	Vítor Pires	199	Vítor Baixinho	169		0	1	1	3	Vítor Baixinho	Mário Sousa	Vítor Pires	Journal	2	new
+7464383	Liga AoJ E08 D02 J01	19	Eduardo Cruz	152	Leal Joao	107	Cristovão Neto	69		0	1	1	3	Eduardo Cruz	Leal Joao	Cristovão Neto	Journal	1	new
+7465976	Liga AoJ E09 D02 J01	19	Cristovão Neto	156	Eduardo Cruz	156	Andre Sousa	130		0	1	1	3	Andre Sousa	Cristovão Neto	Eduardo Cruz	Journal	2	new
+7465980	Liga AoJ E09 D02 J05	19	Carlos Santos	176	Gonçalo Moura	151	Cristovão Neto	104		0	1	1	3	Cristovão Neto	Gonçalo Moura	Carlos Santos	Journal	3	new
+7465974	Liga AoJ E09 D01 J04	18	Ricardo Biscaia	214	Vítor Pires	190	Mário Sousa	120		0	1	1	3	Ricardo Biscaia	Vítor Pires	Mário Sousa	Journal	1	new
+7465979	Liga AoJ E09 D02 J04	19	nogud nogud	250	Luis Baixinho	174	Cristovão Neto	163		0	1	1	3	nogud nogud	Luis Baixinho	Cristovão Neto	Journal	1	new
+7465981	Liga AoJ E09 D02 J06	19	Gonçalo Moura	145	Diogo  Durão	133	Andre Sousa	123		0	1	1	3	Gonçalo Moura	Diogo  Durão	Andre Sousa	Journal	1	new
+7465983	Liga AoJ E09 D02 J08	19	Leal Joao	190	Eduardo Cruz	187	Carlos Santos	108		0	1	1	3	Eduardo Cruz	Carlos Santos	Leal Joao	Journal	3	new
+7465977	Liga AoJ E09 D02 J02	18	Diogo  Durão	184	nogud nogud	141	Carlos Santos	104		0	1	1	3	Carlos Santos	nogud nogud	Diogo  Durão	Journal	3	new
+7465984	Liga AoJ E09 D02 J09	19	Diogo  Durão	165	Eduardo Cruz	139	Luis Baixinho	128		0	1	1	3	Diogo  Durão	Eduardo Cruz	Luis Baixinho	Journal	1	new
+7467377	Liga AoJ E09 D02 J15	19	Eduardo Cruz	191	Luis Baixinho	110	Andre Sousa	104		0	1	1	3	Luis Baixinho	Andre Sousa	Eduardo Cruz	Journal	3	new
+7467372	Liga AoJ E09 D02 J10	17	Eduardo Cruz	173	Gonçalo Moura	161	nogud nogud	145		0	1	1	3	nogud nogud	Eduardo Cruz	Gonçalo Moura	Journal	2	new
+7467379	Liga AoJ E09 D02 J17	18	Gonçalo Moura	172	Eduardo Cruz	100	Leal Joao	89		0	1	1	3	Eduardo Cruz	Gonçalo Moura	Leal Joao	Journal	2	new
+7467384	Liga AoJ E09 D01 J09	18	Vítor Baixinho	109	Pedro Sequeira	98	Vítor Pires	98		0	1	1	3	Vítor Pires	Vítor Baixinho	Pedro Sequeira	Journal	2	new

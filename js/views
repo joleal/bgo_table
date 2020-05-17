@@ -1,0 +1,174 @@
+<div class="container-fluid">
+  <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+      <h1 class="h2">{{player.data.player}}</h1>
+    </div>
+    <div>
+      <h4>Estatísticas</h4>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th>Jogos</th>
+              <th>Vitórias</th>
+              <th>2o Lugar</th>
+              <th>3o Lugar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{ player.data.stats.played }}</td>
+              <td>{{ player.data.stats.first }} 
+								<span style="font-size: 8px;">({{ (player.data.stats.first / player.data.stats.played * 100).toFixed(2)}}%) <span>
+							</td>
+              <td>{{ player.data.stats.second }}</td>
+              <td>{{ player.data.stats.third }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th>Agressões por jogo</th>
+              <th>Guerras por jogo</th>
+              <th>Acções por jogo</th>
+              <th>Acções por carta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{ player.data.stats.aggressions }} </td>
+              <td>{{ player.data.stats.wars }}</td>
+              <td>{{ player.data.stats.actions }}</td>
+              <td>{{ player.data.stats.actionsPerCard }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h4>Líderes</h4>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+	      <th>Era</th>
+              <th>Líder</th>
+              <th>Escolhido</th>
+              <th>Vitória</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="leader in player.data.leaders">
+              <td>{{ leader.age }}</td>
+		<td>{{ leader.name }}</td>
+              <td>{{ (leader.choice / player.data.stats.played * 100.0).toFixed(2) }}%
+		<span style="font-size: 8px;">({{ leader.choice }}x)</span>
+		</td>
+              <td>
+		{{ (leader.victory / leader.choice * 100.0).toFixed(2) }}%
+		<span style="font-size: 8px;">({{ (leader.victory / player.data.stats.played * 100.0).toFixed(2) }}%)</span>
+	      </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h4>Wonders</h4>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+	      <th>Era</th>
+              <th>Wonder</th>
+              <th>Escolhido</th>
+              <th>Vitória</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="wonder in player.data.wonders">
+              <td>{{ wonder.age }}</td>
+		<td>{{ wonder.name }}</td>
+              <td>{{ (wonder.choice / player.data.stats.played * 100.0).toFixed(2) }}%
+		<span style="font-size: 8px;">({{ wonder.choice }}x)</span>		
+</td>
+              <td>{{ (wonder.victory / wonder.choice * 100.0).toFixed(2) }}%
+                <span style="font-size: 8px;">({{ (wonder.victory / player.data.stats.played * 100.0).toFixed(2) }}%)</span>
+	      </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h4>Top cartas (excluindo action cards)</h4>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th>Carta</th>
+              <th>Escolhido</th>
+              <th>Vitória</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="card in player.data.topCards">
+              <td>{{ card.name }}</td>
+              <td>{{ (card.choice / player.data.stats.played * 100.0).toFixed(2) }}%</td>
+              <td>{{ (card.victory / player.data.stats.played * 100.0).toFixed(2) }}%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h4>Top cartas por 3 acções</h4>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th>Carta</th>
+              <th>Escolhido</th>
+              <th>Vitória</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="card in player.data.topCards3">
+              <td>{{ card.name }}</td>
+              <td>{{ (card.choice / player.data.stats.played * 100.0).toFixed(2) }}%</td>
+              <td>{{ (card.victory / player.data.stats.played * 100.0).toFixed(2) }}%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <h4>Jogos Memoráveis</h4>
+      <div class="table-responsive">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th>Link</th>
+              <th>Porquê?</th>
+              <th>Posição</th>
+              <th>Pontos</th>
+              <th>DP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="game in player.data.memorableGames">
+              <td><a href="http://www.boardgaming-online.com/index.php?cnt=202&pl={{game.id}}&nat=3">{{ game.id }}</a></td>
+              <td>{{ game.why }}</td>
+              <td>{{ game.position }}</td>
+              <td>{{ game.points }}</td>
+              <td>{{ game.DP }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</div>

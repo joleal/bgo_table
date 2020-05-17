@@ -1,0 +1,51 @@
+<div class="container-fluid">
+		  <div class="row">
+		    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+		      <div class="sidebar-sticky">
+		        <ul class="nav flex-column">
+		          
+		          <li class="nav-item" style="font-size: 10px">
+		            Actualizado em {{ ::ctrl.lastUpdate }}
+		          </li>
+		          <li class="nav-item" ng-repeat="season in ctrl.seasonList"> 
+		            <a ng-class="(season === ctrl.selectedSeason)?'nav-link active':'nav-link'" href="#" ng-click="ctrl.selectSeason(season)">
+		              {{ ::season.season }} 
+		              <span class="sr-only" >(current)</span>
+		            </a>
+		          </li>
+		        </ul>
+		      </div>
+		    </nav>
+
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <h1 class="h2">Tabela de Pontuações (alternativa) - {{ ctrl.selectedSeason.season }}</h1>
+      </div>
+      <div ng-repeat="division in ctrl.seasonDetail">
+	      <h4>{{ division.division.replace("D", "Divisão "); }}</h4>
+	      <div class="table-responsive">
+	        <table class="table table-striped table-sm">
+	          <thead>
+	            <tr>
+	              <th>Jogador</th>
+	              <th>Vitórias</th>
+	              <th>Pontos</th>
+	              <th>Jogos</th>
+	            </tr>
+	          </thead>
+	          <tbody>
+	            <tr ng-repeat="player in division.players">
+	              <td><a ng-href="{{ctrl.getPlayerUrl(player.name)}}">{{ ::player.name }}</a></td>
+	              <td>{{ ::player.wins }}</td>
+	              <td>{{ ::player.points }}</td>
+	              <td>{{ ::player.games }}</td>
+	            </tr>
+	          </tbody>
+	        </table>
+	      </div>
+      </div>
+    </main>
+
+    			  </div>
+		</div>
+    
