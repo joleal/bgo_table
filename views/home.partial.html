@@ -21,7 +21,9 @@
         </thead>
         <tbody>
           <tr ng-repeat="player in division.players">
-            <td><a ng-href="{{ctrl.getPlayerUrl(player.name)}}">{{ ::player.name }}</a></td>
+            <td><a ng-href="{{ctrl.getPlayerUrl(player.name)}}">{{ ::player.name }}</a>
+							<i title='Campeão da D0{{player.trophy}} em título' ng-show="player.trophy !== '0'" ng-class="player.trophy === '1'?'fas fa-trophy':(player.trophy === '2'?'fas fa-medal':'fas fa-award')"></i>
+            </td>
             <td>{{ ::player.wins }}</td>
             <td>{{ ::player.dp }}</td>
             <td>{{ ::player.games }}</td>

@@ -11,52 +11,10 @@
 	  die("Database connection failed: " . $dbconnect->connect_error);
 	}
 	
-	$sql = "SELECT
-	RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) as league, 
-	players.player AS name,
-	COUNT(*) AS games,
-	SUM(COALESCE(vic,0)) AS wins,
-	SUM(COALESCE(B.dp2,0)) + SUM(COALESCE(C.dp2,0)) AS dp,
-	SUBSTR(Name,Locate('E',Name),3) AS season,
-	CASE WHEN trophy.L = 'D01' THEN 1
-		WHEN trophy.L = 'D02' THEN 2
-		WHEN trophy.L = 'D03' THEN 3
-		ELSE 0 END trophy
-	FROM
-	(
-		SELECT id, name FROM game UNION 
-		SELECT id, name FROM games_ongoing
-	)G
-	JOIN
-	(
-	        SELECT winner AS player, id FROM game UNION
-	        SELECT second, id FROM game UNION
-	        SELECT third, id FROM game UNION 
-	        SELECT player1, id FROM games_ongoing UNION 
-	        SELECT player2, id FROM games_ongoing UNION
-	        SELECT player3, id FROM games_ongoing
-	        ) players ON players.id = G.id
-	LEFT JOIN
-	(
-	        SELECT winner, id, 1 AS vic FROM game
-	        UNION 
-	        SELECT second, id, 1 FROM game WHERE winnerScore = secondScore
-	        UNION 
-	        SELECT third, id, 1 FROM game WHERE winnerScore = thirdScore  
-	) A ON A.id = G.id AND A.winner = player
-	LEFT JOIN
-	(
-	        SELECT second, id, winnerScore - secondScore AS dp2 FROM game 
-	) B ON B.id = G.id AND B.second = player
-	LEFT JOIN
-	(
-	        SELECT third, id, winnerScore - thirdScore AS dp2 FROM game 
-	) C ON C.id = G.id AND C.third = player
-	LEFT JOIN
-	(
-		SELECT 
+	$sql = "SELECT 
 			Epocas.player, 
-			A.league AS L,
+			Epocas.season,
+			A.league,
 			SUM(CASE WHEN A.player IS NOT NULL THEN 1 ELSE 0 END) champ 
 		FROM
 			(
@@ -85,14 +43,8 @@
 				A.season = Epocas.season AND
 				A.league = Epocas.league AND
 				A.rank = 1
-		WHERE Epocas.season LIKE '%$prev_season%'
-		GROUP BY Epocas.player, A.league
-	) trophy ON trophy.player = players.player
-	WHERE 
-NAME LIKE '%$season%'
-AND NAME LIKE 'Liga AoJ%'
-GROUP BY players.player, RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4))
-ORDER BY 1 ASC, 4 DESC, 5 ASC";
+		GROUP BY Epocas.player, A.league, Epocas.season
+	";
 	
 $query = mysqli_query($dbconnect, $sql)
    or die (mysqli_error($dbconnect));
