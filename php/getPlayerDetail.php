@@ -16,7 +16,7 @@
 	SUM(CASE WHEN second = '$player' THEN 1 ELSE 0 END) AS second,
 	SUM(CASE WHEN third = '$player' THEN 1 ELSE 0 END) AS third,
 	SUM(aggression)/COUNT(*) AS aggressions,
-	SUM(war)/COUNT(*) AS wars,
+	SUM(wars)/COUNT(*) AS wars,
 	SUM(actions)/COUNT(*) AS actions,
 	SUM(paidActions)/SUM(takeActions) AS actionsPerCard
 FROM game G
@@ -26,7 +26,6 @@ JOIN
 		PA.game_id,
 		RA.action_player,
 		SUM(CASE WHEN action_type = 'political' AND action_subtype = 'aggression' THEN 1.0 ELSE 0.0 END) AS aggression,
-		SUM(CASE WHEN action_type = 'political' AND action_subtype = 'war' THEN 1.0 ELSE 0.0 END) AS war,
 		SUM(CASE WHEN action_type = 'civil' THEN 1.0 ELSE 0.0 END) AS actions,
 		SUM(CASE WHEN action_type = 'civil' AND action_subtype = 'take card' THEN action_spent + 0.0 ELSE 0.0 END) AS paidActions,
 		SUM(CASE WHEN action_type = 'civil' AND action_subtype = 'take card' THEN 1.0 ELSE 0.0 END) AS takeActions		
@@ -38,6 +37,15 @@ JOIN
 	(action_player = winner OR 
 	 action_player = second OR
 	 action_player = third)
+LEFT JOIN 
+	(SELECT 
+		game_id,
+		COUNT(*) wars
+	FROM wars
+		WHERE attacker = '$player' 
+	GROUP BY game_id 
+	)W
+	ON W.game_id = G.id 
 WHERE
 name LIKE 'Liga AoJ%'";
 	
@@ -57,6 +65,29 @@ echo '"player":"'.$player.'","stats":';
 
 //Print array in JSON format
 echo json_encode($dbdata[0]);
+echo ",";
+
+echo '"wars":';
+$sql = "SELECT 
+		W.type
+FROM game G
+JOIN wars W on G.id = W.game_id 
+WHERE
+G.name LIKE 'Liga AoJ%'
+AND W.attacker = '$player'";
+	
+$query = mysqli_query($dbconnect, $sql)
+   or die (mysqli_error($dbconnect));
+
+//Initialize array variable
+$dbdata = array();
+
+//Fetch into associative array
+while ( $row = $query->fetch_assoc())  {
+	$dbdata[]=$row;
+}
+//Print array in JSON format
+echo json_encode($dbdata);
 echo ",";
 
 echo '"leaders":';
