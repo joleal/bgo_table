@@ -15,6 +15,7 @@
 	RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) as league, 
 	players.player AS name,
 	SUM(complete) AS games,
+	COUNT(*) AS totalGames,
 	SUM(COALESCE(vic,0)) AS wins,
 	SUM(COALESCE(B.dp2,0)) + SUM(COALESCE(C.dp2,0)) AS dp,
 	SUBSTR(Name,Locate('E',Name),3) AS season,
