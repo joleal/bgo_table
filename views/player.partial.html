@@ -57,6 +57,7 @@
               <th>Líder</th>
               <th>Escolhido</th>
               <th>Vitória</th>
+              <th>% Vitória</th>
             </tr>
           </thead>
           <tbody>
@@ -64,6 +65,7 @@
               <td>{{ leader.name }}</td>
               <td>{{ (leader.choice / player.data.stats.played * 100.0).toFixed(2) }}%</td>
               <td>{{ (leader.victory / player.data.stats.played * 100.0).toFixed(2) }}%</td>
+              <td>{{ (leader.victory / leader.choice * 100.0).toFixed(2) }}%</td>
             </tr>
           </tbody>
         </table>
@@ -78,6 +80,7 @@
               <th>Wonder</th>
               <th>Escolhido</th>
               <th>Vitória</th>
+              <th>% Vitória</th>
             </tr>
           </thead>
           <tbody>
@@ -85,6 +88,7 @@
               <td>{{ wonder.name }}</td>
               <td>{{ (wonder.choice / player.data.stats.played * 100.0).toFixed(2) }}%</td>
               <td>{{ (wonder.victory / player.data.stats.played * 100.0).toFixed(2) }}%</td>
+              <td>{{ (wonder.victory / wonder.choice * 100.0).toFixed(2) }}%</td>
             </tr>
           </tbody>
         </table>
@@ -99,6 +103,7 @@
               <th>Carta</th>
               <th>Escolhido</th>
               <th>Vitória</th>
+              <th>% Vitória</th>
             </tr>
           </thead>
           <tbody>
@@ -106,6 +111,7 @@
               <td>{{ card.name }}</td>
               <td>{{ (card.choice / player.data.stats.played * 100.0).toFixed(2) }}%</td>
               <td>{{ (card.victory / player.data.stats.played * 100.0).toFixed(2) }}%</td>
+              <td>{{ (card.victory / card.choice * 100.0).toFixed(2) }}%</td>
             </tr>
           </tbody>
         </table>
@@ -120,6 +126,7 @@
               <th>Carta</th>
               <th>Escolhido</th>
               <th>Vitória</th>
+              <th>% Vitória</th>
             </tr>
           </thead>
           <tbody>
@@ -127,6 +134,7 @@
               <td>{{ card.name }}</td>
               <td>{{ (card.choice / player.data.stats.played * 100.0).toFixed(2) }}%</td>
               <td>{{ (card.victory / player.data.stats.played * 100.0).toFixed(2) }}%</td>
+              <td>{{ (card.victory / card.choice * 100.0).toFixed(2) }}%</td>
             </tr>
           </tbody>
         </table>
@@ -151,7 +159,7 @@
               <td>{{ game.why }}</td>
               <td>{{ game.position }}</td>
               <td>{{ game.points }}</td>
-              <td>{{ game.dp }}</td>
+              <td>{{ game.DP }}</td>
             </tr>
           </tbody>
         </table>
