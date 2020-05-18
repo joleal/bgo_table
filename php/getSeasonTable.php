@@ -14,7 +14,7 @@
 	$sql = "SELECT
 	RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) as league, 
 	players.player AS name,
-	COUNT(*) AS games,
+	SUM(complete) AS games,
 	SUM(COALESCE(vic,0)) AS wins,
 	SUM(COALESCE(B.dp2,0)) + SUM(COALESCE(C.dp2,0)) AS dp,
 	SUBSTR(Name,Locate('E',Name),3) AS season,
@@ -29,12 +29,12 @@
 	)G
 	JOIN
 	(
-	        SELECT winner AS player, id FROM game UNION
-	        SELECT second, id FROM game UNION
-	        SELECT third, id FROM game UNION 
-	        SELECT player1, id FROM games_ongoing UNION 
-	        SELECT player2, id FROM games_ongoing UNION
-	        SELECT player3, id FROM games_ongoing
+	        SELECT winner AS player, id, 1 as complete FROM game UNION
+	        SELECT second, id, 1 as complete FROM game UNION
+	        SELECT third, id, 1 as complete FROM game UNION 
+	        SELECT player1, id, 0 FROM games_ongoing UNION 
+	        SELECT player2, id, 0 FROM games_ongoing UNION
+	        SELECT player3, id, 0 FROM games_ongoing
 	        ) players ON players.id = G.id
 	LEFT JOIN
 	(
