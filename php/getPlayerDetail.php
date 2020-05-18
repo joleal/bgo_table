@@ -43,6 +43,7 @@ LEFT JOIN
 		COUNT(*) wars
 	FROM wars
 		WHERE attacker = '$player' 
+		AND type = 'war'
 	GROUP BY game_id 
 	)W
 	ON W.game_id = G.id 
