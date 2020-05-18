@@ -5,7 +5,7 @@
 	$dbconnect=mysqli_connect($DB_HOST, $UName, $Pass, $DB_Name);
 
 	$season=$_GET['season'];
-	$prev_season = 'E' . (intval(substr($season,1,2))-1);
+	$prev_season = 'E' . substr('0'.(intval(substr($season,1,2))-1),-2);
 
 	if ($dbconnect->connect_error) {
 	  die("Database connection failed: " . $dbconnect->connect_error);
