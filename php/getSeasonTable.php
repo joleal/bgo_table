@@ -93,7 +93,7 @@
 NAME LIKE '%$season%'
 AND NAME LIKE 'Liga AoJ%'
 GROUP BY players.player, RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4))
-ORDER BY 1 ASC, 4 DESC, 5 ASC";
+ORDER BY 1 ASC, 5 DESC, 6 ASC";
 	
 $query = mysqli_query($dbconnect, $sql)
    or die (mysqli_error($dbconnect));
