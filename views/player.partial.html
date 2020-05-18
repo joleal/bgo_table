@@ -65,9 +65,13 @@
             <tr ng-repeat="leader in player.data.leaders">
               <td>{{ leader.age }}</td>
               <td>{{ leader.name }}</td>
-              <td>{{ (leader.choice / player.data.stats.played * 100.0).toFixed(2) }}%</td>
-              <td>{{ (leader.victory / player.data.stats.played * 100.0).toFixed(2) }}%</td>
-              <td>{{ (leader.victory / leader.choice * 100.0).toFixed(2) }}%</td>
+              <td>{{ (leader.choice / player.data.stats.played * 100.0).toFixed(2) }}%
+								<span style="font-size: 8px;">({{leader.choice}}/{{player.data.stats.played}}) <span>
+              </td>
+              <td>{{ (leader.victory / player.data.stats.played * 100.0).toFixed(2) }}%
+								<span style="font-size: 8px;">({{leader.victory}}/{{player.data.stats.played}}) <span></td>
+              <td>{{ (leader.victory / leader.choice * 100.0).toFixed(2) }}%
+								<span style="font-size: 8px;">({{leader.victory}}/{{leader.choice}}) <span></td>
             </tr>
           </tbody>
         </table>
@@ -90,9 +94,12 @@
             <tr ng-repeat="wonder in player.data.wonders">
               <td>{{ wonder.age }}</td>
               <td>{{ wonder.name }}</td>
-              <td>{{ (wonder.choice / player.data.stats.played * 100.0).toFixed(2) }}%</td>
-              <td>{{ (wonder.victory / player.data.stats.played * 100.0).toFixed(2) }}%</td>
-              <td>{{ (wonder.victory / wonder.choice * 100.0).toFixed(2) }}%</td>
+              <td>{{ (wonder.choice / player.data.stats.played * 100.0).toFixed(2) }}%
+								<span style="font-size: 8px;">({{wonder.choice}}/{{player.data.stats.played}}) <span></td>
+              <td>{{ (wonder.victory / player.data.stats.played * 100.0).toFixed(2) }}%
+								<span style="font-size: 8px;">({{wonder.victory}}/{{player.data.stats.played}}) <span></td>
+              <td>{{ (wonder.victory / wonder.choice * 100.0).toFixed(2) }}%
+								<span style="font-size: 8px;">({{wonder.victory}}/{{wonder.choice}}) <span></td>
             </tr>
           </tbody>
         </table>

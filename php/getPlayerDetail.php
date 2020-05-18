@@ -64,7 +64,7 @@ $sql = "SELECT
 		PA.action_text AS name,
 		L.age,
 		COUNT(PA.action_text) AS choice, 
-		SUM(CASE WHEN RA.action_player = G.winner THEN 1.0 ELSE 0.0 END) AS victory
+		SUM(CASE WHEN RA.action_player = G.winner THEN 1 ELSE 0 END) AS victory
 FROM game G
 JOIN game_parsed_actions PA ON G.id = PA.game_id
 JOIN game_raw_actions RA ON RA.game_id = PA.game_id AND RA.action_date = PA.action_date
@@ -96,7 +96,7 @@ $sql = "SELECT
 		PA.action_text AS name,
 		W.age,
 		COUNT(PA.action_text) AS choice, 
-		SUM(CASE WHEN RA.action_player = G.winner THEN 1.0 ELSE 0.0 END) AS victory
+		SUM(CASE WHEN RA.action_player = G.winner THEN 1 ELSE 0 END) AS victory
 FROM game G
 JOIN game_parsed_actions PA ON G.id = PA.game_id
 JOIN game_raw_actions RA ON RA.game_id = PA.game_id AND RA.action_date = PA.action_date
@@ -126,7 +126,7 @@ echo '"topCards":';
 $sql = "SELECT 
 		PA.action_text AS name,
 		COUNT(PA.action_text) AS choice, 
-		SUM(CASE WHEN RA.action_player = G.winner THEN 1.0 ELSE 0.0 END) AS victory
+		SUM(CASE WHEN RA.action_player = G.winner THEN 1 ELSE 0 END) AS victory
 FROM game G
 JOIN game_parsed_actions PA ON G.id = PA.game_id
 JOIN game_raw_actions RA ON RA.game_id = PA.game_id AND RA.action_date = PA.action_date
@@ -157,7 +157,7 @@ echo '"topCards3":';
 $sql = "SELECT 
 		PA.action_text AS name,
 		COUNT(PA.action_text) AS choice, 
-		SUM(CASE WHEN RA.action_player = G.winner THEN 1.0 ELSE 0.0 END) AS victory
+		SUM(CASE WHEN RA.action_player = G.winner THEN 1 ELSE 0 END) AS victory
 FROM game G
 JOIN game_parsed_actions PA ON G.id = PA.game_id
 JOIN game_raw_actions RA ON RA.game_id = PA.game_id AND RA.action_date = PA.action_date
