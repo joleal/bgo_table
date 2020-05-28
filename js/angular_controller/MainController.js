@@ -10,6 +10,8 @@
 
 		me.init = function()
 		{
+			me.alternativeScoring = false;
+
 			DataService.getSeasonList().then(
 				function(data){
 					me.seasonList = data;
@@ -34,6 +36,16 @@
 
 
 
+		}
+
+		me.sorter = function(player)
+		{
+			if(me.alternativeScoring)
+			{
+				return -parseInt(player.points);
+			}
+			else
+				return null;
 		}
 
 		me.selectSeason = function(season)

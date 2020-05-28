@@ -21,7 +21,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr ng-repeat="player in division.players | orderBy:(ctrl.alternativeScoring?'-points':null)">
+          <tr ng-repeat="player in division.players | orderBy:ctrl.sorter">
             <td><a ng-href="{{ctrl.getPlayerUrl(player.name)}}">{{ ::player.name }}</a>
             	<i ng-if="player.name === 'Ariana Pintor'" title='Campeã da D0{{player.trophy}} em título' ng-show="player.trophy !== '0'" ng-class="player.trophy === '1'?'fas fa-trophy':(player.trophy === '2'?'fas fa-medal':'fas fa-award')"></i>
             	<i ng-if="player.name !== 'Ariana Pintor'" title='Campeão da D0{{player.trophy}} em título' ng-show="player.trophy !== '0'" ng-class="player.trophy === '1'?'fas fa-trophy':(player.trophy === '2'?'fas fa-medal':'fas fa-award')"></i>
