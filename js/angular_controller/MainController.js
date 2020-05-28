@@ -11,6 +11,7 @@
 		me.init = function()
 		{
 			me.alternativeScoring = false;
+			me.score = 'points1';
 
 			DataService.getSeasonList().then(
 				function(data){
@@ -42,7 +43,7 @@
 		{
 			if(me.alternativeScoring)
 			{
-				return -parseInt(player.points);
+				return -parseInt(player[me.score]);
 			}
 			else
 				return null;

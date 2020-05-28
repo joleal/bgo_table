@@ -26,7 +26,7 @@
             	<i ng-if="player.name === 'Ariana Pintor'" title='Campeã da D0{{player.trophy}} em título' ng-show="player.trophy !== '0'" ng-class="player.trophy === '1'?'fas fa-trophy':(player.trophy === '2'?'fas fa-medal':'fas fa-award')"></i>
             	<i ng-if="player.name !== 'Ariana Pintor'" title='Campeão da D0{{player.trophy}} em título' ng-show="player.trophy !== '0'" ng-class="player.trophy === '1'?'fas fa-trophy':(player.trophy === '2'?'fas fa-medal':'fas fa-award')"></i>
             </td>
-            <td ng-if="ctrl.alternativeScoring">{{ ::player.points }}</td>
+            <td ng-if="ctrl.alternativeScoring">{{ player[ctrl.score] }}</td>
             <td>{{ ::player.wins }}</td>
             <td>{{ ::player.dp }}</td>
             <td>{{ ::player.games }}/{{ ::player.totalGames}}</td>
@@ -34,8 +34,15 @@
         </tbody>
       </table>
       <p>
-      	<a href="" ng-click="ctrl.alternativeScoring = !ctrl.alternativeScoring">Score Alternativo</a>
-			  <a class="btn btn-primary btn-sm btn-outline-success" href="" role="button" ng-click="division.gamesVisible=1;">
+				<select ng-model="ctrl.score" ng-if="ctrl.alternativeScoring">
+					<option value="points1">% pontuação final</option>
+					<option value="points2">5-2-0</option>
+				</select>
+      	<a href="" ng-click="ctrl.alternativeScoring = !ctrl.alternativeScoring;">
+      		{{!ctrl.alternativeScoring? 'Score Alternativo' : 'Esconder'}}
+      	</a>
+      	<br />
+      	<a class="btn btn-primary btn-sm btn-outline-success" href="" role="button" ng-click="division.gamesVisible=1;">
 			    Mostrar Jogos
 			  </a>
 			</p>
