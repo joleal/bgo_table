@@ -22,7 +22,8 @@
 	CASE WHEN trophy.L = 'D01' THEN 1
 		WHEN trophy.L = 'D02' THEN 2
 		WHEN trophy.L = 'D03' THEN 3
-		ELSE 0 END trophy
+		ELSE 0 END trophy,
+	SUM(pts.points) AS points
 	FROM
 	(
 		SELECT id, name FROM game UNION 
@@ -39,20 +40,26 @@
 	        ) players ON players.id = G.id
 	LEFT JOIN
 	(
+		SELECT winner AS player, id, 75 + winnerScore/(winnerScore + secondScore + thirdScore) * 100 AS points FROM game UNION
+		SELECT second AS player, id, 25 + secondScore/(winnerScore + secondScore + thirdScore) * 100 AS points FROM game UNION
+		SELECT third AS player, id, thirdScore/(winnerScore + secondScore + thirdScore) * 100 AS points FROM game 
+	) pts ON pts.id = G.id AND pts.player = players.player
+	LEFT JOIN
+	(
 	        SELECT winner, id, 1 AS vic FROM game
 	        UNION 
 	        SELECT second, id, 1 FROM game WHERE winnerScore = secondScore
 	        UNION 
 	        SELECT third, id, 1 FROM game WHERE winnerScore = thirdScore  
-	) A ON A.id = G.id AND A.winner = player
+	) A ON A.id = G.id AND A.winner = players.player
 	LEFT JOIN
 	(
 	        SELECT second, id, winnerScore - secondScore AS dp2 FROM game 
-	) B ON B.id = G.id AND B.second = player
+	) B ON B.id = G.id AND B.second = players.player
 	LEFT JOIN
 	(
 	        SELECT third, id, winnerScore - thirdScore AS dp2 FROM game 
-	) C ON C.id = G.id AND C.third = player
+	) C ON C.id = G.id AND C.third = players.player
 	LEFT JOIN
 	(
 		SELECT 
