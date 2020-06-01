@@ -38,10 +38,10 @@
 
 		me.sort = function(sortable)
 		{
+			
 			if(me.order === sortable)
-				me.order = '-' + sortable;
-			else 
-				me.order = sortable;
+				me.reverse = !me.reverse;
+			me.order = sortable;
 		}
 
 		me.init();

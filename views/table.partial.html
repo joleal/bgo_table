@@ -34,7 +34,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="player in ctrl.data | orderBy:-ctrl.order">
+        <tr ng-repeat="player in ctrl.data | orderBy:ctrl.order:ctrl.reverse">
           <td>{{ player.player }}</td>
           <td>{{ player.jogos }}</td>
           <td>{{ player.vitorias }}</td>
