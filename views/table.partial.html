@@ -21,19 +21,20 @@
     <table class="table table-striped table-sm">
       <thead>
         <tr>
-          <th>Nome Jogador</th>
-          <th>Jogos</th>
-          <th>Vitórias</th>
+          <th ng-click="ctrl.sort('player')">Nome Jogador</th>
+          <th ng-click="ctrl.sort('jogos')">Jogos</th>
+          <th ng-click="ctrl.sort('vitorias')">Vitórias</th>
           <th>% de Vitórias</th>
-          <th>Total de DP</th>
+          <th ng-click="ctrl.sort('DPs')">Total de DP</th>
           <th>DP por jogo</th>
-          <th>Épocas</th>
-          <th>Campeão</th>
-          <th>Épocas na 1D</th>
+          <th ng-click="ctrl.sort('totEp')">Épocas</th>
+          <th ng-click="ctrl.sort('champ')">Campeão</th>
+          <th ng-click="ctrl.sort('epocasD1')">Épocas na 1D</th>
+          <th ng-click="ctrl.sort('trueSkill')">TrueSkill</th>
         </tr>
       </thead>
       <tbody>
-        <tr ng-repeat="player in ctrl.data">
+        <tr ng-repeat="player in ctrl.data | filter:orderBy:-ctrl.order">
           <td>{{ player.player }}</td>
           <td>{{ player.jogos }}</td>
           <td>{{ player.vitorias }}</td>
@@ -43,6 +44,7 @@
           <td>{{ player.totEp }}</td>
           <td>{{ player.champ }}</td>
           <td>{{ player.epocasD1 }}</td>
+          <td>{{ player.trueSkill }}</td>
         </tr>
       </tbody>
     </table>

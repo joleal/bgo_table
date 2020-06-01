@@ -36,6 +36,14 @@
 				});
 		}
 
+		me.sort = function(sortable)
+		{
+			if(me.sort === sortable)
+				me.sort = '-' + sortable;
+			else 
+				me.sort = sortable;
+		}
+
 		me.init();
 
 	}

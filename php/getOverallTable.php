@@ -56,13 +56,16 @@ SELECT
 	SUM(DP) AS DPs,
 	MAX(D1.epocasD1) AS EpD1,
 	MAX(D1.champ) AS Champ,
-	MAX(B.totEp) AS totEp
+	MAX(B.totEp) AS totEp,
+	PP.mu - 3*PP.sigma AS trueSkill
 FROM
 (
 	SELECT winner AS player, 0 AS DP, name FROM game WHERE name LIKE 'Liga AoJ%' UNION ALL
 	SELECT second AS player, winnerScore - secondScore AS DP, name FROM game WHERE name LIKE 'Liga AoJ%' UNION ALL
 	SELECT third AS player, winnerScore - thirdScore AS DP, name FROM game WHERE name LIKE 'Liga AoJ%'
 ) A
+LEFT JOIN
+	players PP ON PP.player = A.player
 INNER JOIN 
 (
 	SELECT name
