@@ -46,7 +46,8 @@
 	DPs/jogos AS DPporJogo,
 	totEp,
 	COALESCE(champ, 0) AS champ,
-	COALESCE(EpD1, 0) AS epocasD1
+	COALESCE(EpD1, 0) AS epocasD1,
+	trueSkill
 FROM
 (
 SELECT 
