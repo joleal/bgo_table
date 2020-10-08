@@ -13,27 +13,12 @@
 	$stmt = $dbconnect->prepare(
 
 	"SELECT
-	RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league, 
-	player AS name,
-	COUNT(*) AS games,
-	SUM(COALESCE(vic,0)) AS wins,
-	SUM(COALESCE(points,0)) AS points,
-	SUBSTR(Name,Locate('E',Name),3) AS season
+	*
 	FROM
 	game G
-	JOIN
-	(
-	  SELECT winner AS player, 5 AS points, 1 AS vic FROM game 
-	  UNION
-	  SELECT second, 2, 0 FROM game
-	  UNION
-	  SELECT third, 0, 0 FROM game
-  ) players ON players.id = G.id
 	WHERE 
 NAME LIKE '%' + ? + '%'
-AND NAME LIKE 'Liga AoJ%'
-GROUP BY player, RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4))
-ORDER BY 1 ASC, 5 DESC, 4 DESC");
+AND NAME LIKE 'Liga AoJ%'");
 
 $stmt->bind_param('s', $season);
 	
