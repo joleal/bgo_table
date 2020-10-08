@@ -10,7 +10,9 @@
 	  die("Database connection failed: " . $dbconnect->connect_error);
 	}
 	
-	$sql = "SELECT
+	$stmt = $dbconnect->prepare(
+
+	"SELECT
 	RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league, 
 	player AS name,
 	COUNT(*) AS games,
@@ -28,13 +30,17 @@
 	  SELECT third, 0, 0 FROM game
   ) players ON players.id = G.id
 	WHERE 
-NAME LIKE '%$season%'
+NAME LIKE '%' + ? + '%'
 AND NAME LIKE 'Liga AoJ%'
 GROUP BY player, RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4))
-ORDER BY 1 ASC, 5 DESC, 4 DESC";
+ORDER BY 1 ASC, 5 DESC, 4 DESC");
+
+$stmt->bind_param('s', $season);
 	
-$query = mysqli_query($dbconnect, $sql)
-   or die (mysqli_error($dbconnect));
+// $query = mysqli_query($dbconnect, $sql)
+//    or die (mysqli_error($dbconnect));
+$stmt->execute();
+$query = $stmt->get_result();
 
 //Initialize array variable
 $dbdata = array();
