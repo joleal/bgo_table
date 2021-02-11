@@ -5,6 +5,12 @@
 	$dbconnect=mysqli_connect($DB_HOST, $UName, $Pass, $DB_Name);
 
 	$season=$_GET['season'];
+
+	if (!preg_match('/^[0-9]{2}$/', $season))
+	{
+	 return false;
+	}
+	
 	$prev_season = 'E' . substr('0'.(intval(substr($season,1,2))-1),-2);
 
 	if ($dbconnect->connect_error) {
@@ -74,9 +80,9 @@
 			SUM(CASE WHEN A.player IS NOT NULL THEN 1 ELSE 0 END) champ 
 		FROM
 			(
-			SELECT player1 AS player,SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE name LIKE 'Liga Aoj E%' UNION
-			SELECT player2,SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE name LIKE 'Liga Aoj E%' UNION
-			SELECT player3,SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE name LIKE 'Liga Aoj E%' 
+			SELECT player1 AS player,SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION
+			SELECT player2,SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION
+			SELECT player3,SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 			) Epocas 
 		INNER JOIN
 			(
@@ -88,9 +94,9 @@
 						player, season, league, SUM(CASE WHEN DP = 0 THEN 1 ELSE 0 END) AS V, SUM(DP) AS DP, COUNT(*) AS games
 					FROM
 						(SELECT winner AS player, 0 AS DP, SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league 
-						FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
-						SELECT second,winnerScore - secondScore, SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
-						SELECT third,winnerScore - thirdScore, SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE name LIKE 'Liga Aoj E%' 
+						FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION ALL
+						SELECT second,winnerScore - secondScore, SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION ALL
+						SELECT third,winnerScore - thirdScore, SUBSTR(Name,Locate('E',Name),3) AS season,RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4)) AS league FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 						) sub
 					GROUP BY player, season, league
 				) ab
@@ -104,7 +110,7 @@
 	) trophy ON trophy.player = players.player
 	WHERE 
 NAME LIKE '%$season%'
-AND NAME LIKE 'Liga Aoj E%'
+AND LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 GROUP BY players.player, RTRIM(SUBSTR(NAME, LOCATE('D', NAME),4))
 ORDER BY 1 ASC, 5 DESC, 6 ASC";
 	

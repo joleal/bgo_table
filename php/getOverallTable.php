@@ -61,9 +61,9 @@ SELECT
 	PP.mu - 3*PP.sigma AS trueSkill
 FROM
 (
-	SELECT winner AS player, 0 AS DP, name FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
-	SELECT second AS player, winnerScore - secondScore AS DP, name FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
-	SELECT third AS player, winnerScore - thirdScore AS DP, name FROM game WHERE name LIKE 'Liga Aoj E%'
+	SELECT winner AS player, 0 AS DP, name FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION ALL
+	SELECT second AS player, winnerScore - secondScore AS DP, name FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION ALL
+	SELECT third AS player, winnerScore - thirdScore AS DP, name FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 ) A
 LEFT JOIN
 	players PP ON PP.player = A.player
@@ -71,9 +71,9 @@ INNER JOIN
 (
 	SELECT name
 	FROM
-	 (SELECT name, winner AS player FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
-	 SELECT name, second FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
-	 SELECT name, third FROM game WHERE name LIKE 'Liga Aoj E%'
+	 (SELECT name, winner AS player FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION ALL
+	 SELECT name, second FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION ALL
+	 SELECT name, third FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 	 ) A
 	 WHERE 1 = 1
 	 " . $filter . " 
@@ -117,9 +117,9 @@ LEFT JOIN
 JOIN
 (
 	SELECT player, COUNT(*) totEp FROM (
-	SELECT player1 AS player,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%' UNION
-	SELECT player2,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%' UNION
-	SELECT player3,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%')
+	SELECT player1 AS player,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION
+	SELECT player2,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' UNION
+	SELECT player3,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$')
 	A GROUP BY player 
 ) B
 	ON B.player = A.player

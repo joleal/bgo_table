@@ -102,7 +102,7 @@ JOIN game_parsed_actions PA ON G.id = PA.game_id
 JOIN game_raw_actions RA ON RA.game_id = PA.game_id AND RA.action_date = PA.action_date
 JOIN leaders L ON L.leader = PA.action_text
 WHERE
-G.name LIKE 'Liga Aoj E%'
+LEFT(G.name,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 AND RA.action_player = '$player'
 AND PA.action_subtype = 'elect leader'
 GROUP BY PA.action_text, L.age
@@ -134,7 +134,7 @@ JOIN game_parsed_actions PA ON G.id = PA.game_id
 JOIN game_raw_actions RA ON RA.game_id = PA.game_id AND RA.action_date = PA.action_date
 JOIN wonders W ON W.wonder = PA.action_text
 WHERE
-G.name LIKE 'Liga Aoj E%'
+LEFT(G.name,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 AND RA.action_player = '$player'
 AND PA.action_subtype = 'complete wonder'
 GROUP BY PA.action_text, W.age
@@ -164,7 +164,7 @@ JOIN game_parsed_actions PA ON G.id = PA.game_id
 JOIN game_raw_actions RA ON RA.game_id = PA.game_id AND RA.action_date = PA.action_date
 LEFT JOIN action_cards C ON C.card = PA.action_text 
 WHERE
-G.name LIKE 'Liga Aoj E%'
+LEFT(G.name,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 AND RA.action_player = '$player'
 AND PA.action_subtype = 'take card'
 AND C.card IS NULL 	
@@ -194,7 +194,7 @@ FROM game G
 JOIN game_parsed_actions PA ON G.id = PA.game_id
 JOIN game_raw_actions RA ON RA.game_id = PA.game_id AND RA.action_date = PA.action_date
 WHERE
-G.name LIKE 'Liga Aoj E%'
+LEFT(G.name,12) REGEXP '^Liga Aoj E[0-9]{2}$'
 AND RA.action_player = '$player'
 AND PA.action_subtype = 'take card'
 AND PA.action_spent = 3
@@ -223,7 +223,7 @@ SELECT
 	winnerScore as points,
 	winnerScore - thirdScore AS DP, 
 	'Biggest Victory' AS why
-FROM game WHERE name LIKE 'Liga Aoj E%' AND winner = '$player' ORDER BY DP DESC LIMIT 1
+FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' AND winner = '$player' ORDER BY DP DESC LIMIT 1
 ) A
 UNION 
 SELECT * FROM (
@@ -233,7 +233,7 @@ SELECT
 	winnerScore as points,
 	CASE WHEN winnerScore - secondScore = 0 THEN winnerScore - thirdScore ELSE winnerScore - secondScore END AS DP, 
 	'Closest Victory' AS why
-FROM game WHERE name LIKE 'Liga Aoj E%' AND winner = '$player' ORDER BY DP ASC LIMIT 1
+FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' AND winner = '$player' ORDER BY DP ASC LIMIT 1
 ) A
 UNION 
 SELECT * FROM (
@@ -243,7 +243,7 @@ SELECT
 	CASE WHEN second = '$player' THEN secondScore ELSE thirdScore END as points,
 	CASE WHEN second = '$player' THEN secondScore ELSE thirdScore END - winnerScore AS DP, 
 	'Worst Loss' AS why
-FROM game WHERE name LIKE 'Liga Aoj E%' AND (second = '$player' OR third = '$player') ORDER BY DP ASC LIMIT 1
+FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' AND (second = '$player' OR third = '$player') ORDER BY DP ASC LIMIT 1
 ) A
 UNION 
 SELECT * FROM (
@@ -253,7 +253,7 @@ SELECT
 	CASE WHEN second = '$player' THEN secondScore ELSE thirdScore END as points,
 	CASE WHEN second = '$player' THEN secondScore ELSE thirdScore END - winnerScore AS DP, 
 	'Closest Loss' AS why
-FROM game WHERE name LIKE 'Liga Aoj E%' AND (second = '$player' OR third = '$player') 
+FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' AND (second = '$player' OR third = '$player') 
 AND CASE WHEN second = '$player' THEN secondScore ELSE thirdScore END - winnerScore <> 0 ORDER BY DP DESC LIMIT 1
 ) A
 UNION 
@@ -264,7 +264,7 @@ SELECT
 	CASE WHEN winner = '$player' THEN winnerScore WHEN second = '$player' THEN secondScore ELSE thirdScore END  as points,
 	CASE WHEN winner = '$player' THEN winnerScore - secondScore WHEN second = '$player' THEN secondScore - winnerScore ELSE thirdScore - winnerScore END  AS DP, 
 	'Most Points' AS why
-FROM game WHERE name LIKE 'Liga Aoj E%' AND (second = '$player' OR third = '$player' OR winner = '$player') ORDER BY points DESC LIMIT 1
+FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' AND (second = '$player' OR third = '$player' OR winner = '$player') ORDER BY points DESC LIMIT 1
 ) A
 UNION 
 SELECT * FROM (
@@ -274,7 +274,7 @@ SELECT
 	CASE WHEN winner = '$player' THEN winnerScore WHEN second = '$player' THEN secondScore ELSE thirdScore END  as points,
 	CASE WHEN winner = '$player' THEN winnerScore - secondScore WHEN second = '$player' THEN secondScore - winnerScore ELSE thirdScore - winnerScore END  AS DP, 
 	'Least Points' AS why
-FROM game WHERE name LIKE 'Liga Aoj E%' AND (second = '$player' OR third = '$player' OR winner = '$player') ORDER BY points ASC LIMIT 1
+FROM game WHERE LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' AND (second = '$player' OR third = '$player' OR winner = '$player') ORDER BY points ASC LIMIT 1
 ) A";
 	
 $query = mysqli_query($dbconnect, $sql)

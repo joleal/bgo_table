@@ -6,6 +6,11 @@
 
 	$season=$_GET['season'];
 
+	if (!preg_match('/^[0-9]{2}$/', $season))
+	{
+	 return false;
+	}
+	
 	if ($dbconnect->connect_error) {
 	  die("Database connection failed: " . $dbconnect->connect_error);
 	}
@@ -29,7 +34,7 @@
 	)G
 	WHERE
 		NAME LIKE '%$season%'
-		AND NAME LIKE 'Liga Aoj E%' 
+		AND LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$' 
 	ORDER BY 3 ASC, 2 ASC";
 	
 $query = mysqli_query($dbconnect, $sql)

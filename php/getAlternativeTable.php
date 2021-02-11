@@ -6,6 +6,11 @@
 
 	$season=$_GET['season'];
 
+	if (!preg_match('/^[0-9]{2}$/', $season))
+	{
+	 return false;
+	}
+
 	if ($dbconnect->connect_error) {
 	  die("Database connection failed: " . $dbconnect->connect_error);
 	}
@@ -18,7 +23,7 @@
 	game G
 	WHERE 
 NAME LIKE '%?%'
-AND NAME LIKE 'Liga AoJ E%'");
+AND LEFT(NAME,12) REGEXP '^Liga Aoj E[0-9]{2}$'");
 
 $stmt->bind_param('s', $season);
 	
