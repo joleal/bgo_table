@@ -6,7 +6,7 @@
 
 	$season=$_GET['season'];
 
-	if (!preg_match('/^[0-9]{2}$/', $season))
+	if (!preg_match('/^E[0-9]{2}$/', $season))
 	{
 	 return false;
 	}
