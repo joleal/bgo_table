@@ -8,9 +8,9 @@
 	  die("Database connection failed: " . $dbconnect->connect_error);
 	}
 	
-	$sql = "SELECT DISTINCT SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE NAME LIKE 'Liga AoJ%' 
+	$sql = "SELECT DISTINCT SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE NAME LIKE 'Liga AoJ E%' 
 		UNION
-		SELECT DISTINCT SUBSTR(Name,Locate('E',Name),3) AS season FROM games_ongoing WHERE NAME LIKE 'Liga AoJ%' 
+		SELECT DISTINCT SUBSTR(Name,Locate('E',Name),3) AS season FROM games_ongoing WHERE NAME LIKE 'Liga AoJ E%' 
 		ORDER BY 1 DESC;";
 	$query = mysqli_query($dbconnect, $sql)
 	   or die (mysqli_error($dbconnect));

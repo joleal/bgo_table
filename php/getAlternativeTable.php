@@ -17,8 +17,8 @@
 	FROM
 	game G
 	WHERE 
-NAME LIKE '%' + ? + '%'
-AND NAME LIKE 'Liga AoJ%'");
+NAME LIKE '%?%'
+AND NAME LIKE 'Liga AoJ E%'");
 
 $stmt->bind_param('s', $season);
 	

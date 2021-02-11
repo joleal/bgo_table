@@ -14,9 +14,9 @@
 		player
 	FROM
 		(
-		SELECT player1 AS player FROM game WHERE name LIKE 'Liga Aoj%' UNION 
-		SELECT player2 FROM game WHERE name LIKE 'Liga Aoj%D01%' UNION
-		SELECT player3 FROM game WHERE name LIKE 'Liga Aoj%D01%' 
+		SELECT player1 AS player FROM game WHERE name LIKE 'Liga Aoj E%' UNION 
+		SELECT player2 FROM game WHERE name LIKE 'Liga Aoj E%D01%' UNION
+		SELECT player3 FROM game WHERE name LIKE 'Liga Aoj E%D01%' 
 		) Ps
 	WHERE player is not null
 	ORDER by 1

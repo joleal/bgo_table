@@ -61,9 +61,9 @@ SELECT
 	PP.mu - 3*PP.sigma AS trueSkill
 FROM
 (
-	SELECT winner AS player, 0 AS DP, name FROM game WHERE name LIKE 'Liga AoJ%' UNION ALL
-	SELECT second AS player, winnerScore - secondScore AS DP, name FROM game WHERE name LIKE 'Liga AoJ%' UNION ALL
-	SELECT third AS player, winnerScore - thirdScore AS DP, name FROM game WHERE name LIKE 'Liga AoJ%'
+	SELECT winner AS player, 0 AS DP, name FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
+	SELECT second AS player, winnerScore - secondScore AS DP, name FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
+	SELECT third AS player, winnerScore - thirdScore AS DP, name FROM game WHERE name LIKE 'Liga Aoj E%'
 ) A
 LEFT JOIN
 	players PP ON PP.player = A.player
@@ -71,9 +71,9 @@ INNER JOIN
 (
 	SELECT name
 	FROM
-	 (SELECT name, winner AS player FROM game WHERE name LIKE 'Liga AoJ%' UNION ALL
-	 SELECT name, second FROM game WHERE name LIKE 'Liga AoJ%' UNION ALL
-	 SELECT name, third FROM game WHERE name LIKE 'Liga AoJ%'
+	 (SELECT name, winner AS player FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
+	 SELECT name, second FROM game WHERE name LIKE 'Liga Aoj E%' UNION ALL
+	 SELECT name, third FROM game WHERE name LIKE 'Liga Aoj E%'
 	 ) A
 	 WHERE 1 = 1
 	 " . $filter . " 
@@ -88,9 +88,9 @@ LEFT JOIN
 		SUM(CASE WHEN A.player IS NOT NULL THEN 1 ELSE 0 END) champ 
 	FROM
 		(
-		SELECT player1 AS player,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%D01%' UNION
-		SELECT player2,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%D01%' UNION
-		SELECT player3,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%D01%' 
+		SELECT player1 AS player,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%D01%' UNION
+		SELECT player2,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%D01%' UNION
+		SELECT player3,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%D01%' 
 		) EpocasD1 
 	LEFT JOIN
 		(
@@ -101,9 +101,9 @@ LEFT JOIN
 				SELECT 
 					player, season, SUM(CASE WHEN DP = 0 THEN 1 ELSE 0 END) AS V, SUM(DP) AS DP, COUNT(*) AS games
 				FROM
-					(SELECT winner AS player, 0 AS DP, SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%D01%' UNION ALL
-					SELECT second,winnerScore - secondScore, SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%D01%' UNION ALL
-					SELECT third,winnerScore - thirdScore, SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%D01%' 
+					(SELECT winner AS player, 0 AS DP, SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%D01%' UNION ALL
+					SELECT second,winnerScore - secondScore, SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%D01%' UNION ALL
+					SELECT third,winnerScore - thirdScore, SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%D01%' 
 					) sub
 				GROUP BY player, season
 			) ab
@@ -117,9 +117,9 @@ LEFT JOIN
 JOIN
 (
 	SELECT player, COUNT(*) totEp FROM (
-	SELECT player1 AS player,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%' UNION
-	SELECT player2,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%' UNION
-	SELECT player3,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj%')
+	SELECT player1 AS player,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%' UNION
+	SELECT player2,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%' UNION
+	SELECT player3,SUBSTR(Name,Locate('E',Name),3) AS season FROM game WHERE name LIKE 'Liga Aoj E%')
 	A GROUP BY player 
 ) B
 	ON B.player = A.player

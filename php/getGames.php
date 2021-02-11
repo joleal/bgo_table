@@ -29,7 +29,7 @@
 	)G
 	WHERE
 		NAME LIKE '%$season%'
-		AND NAME LIKE 'Liga AoJ%' 
+		AND NAME LIKE 'Liga Aoj E%' 
 	ORDER BY 3 ASC, 2 ASC";
 	
 $query = mysqli_query($dbconnect, $sql)
